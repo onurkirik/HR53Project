@@ -1,0 +1,89 @@
+﻿@model List<Company>
+<div class="container-xxl flex-grow-1 container-p-y">
+    <h4 class="fw-bold py-3 mb-4">
+        <span class="text-muted fw-light">Makale Yönetimi /</span> Makaleler
+    </h4>
+
+    <!-- Basic Bootstrap Table -->
+    <div class="card">
+        <div class="table-responsive text-nowrap">
+            <a asp-area="SiteManager" asp-controller="Company" asp-action="Add" class="btn btn-warning mb-4"><i class='bx bx-comment-add'></i> Add Company</a>
+            <table class="table" id="companiesTable" width="100%" collspacing="0">
+                <thead>
+                    <tr>
+                        <th>Logo</th>
+                        <th>Name</th>
+                        <th>Title</th>
+                        <th>Mersis Number</th>
+                        <th>Tax Office</th>
+                        <th>Tax Number</th>
+                        <th>Phone</th>
+                        <th>Adress</th>
+                        <th>Email</th>
+                        <th>Total Employee</th>
+                        <th>Foundation Year</th>
+                        <th>Contract Start Date</th>
+                        <th>Contract End Date</th>
+                        <th>Id Active</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>Logo</th>
+                        <th>Name</th>
+                        <th>Title</th>
+                        <th>Mersis Number</th>
+                        <th>Tax Office</th>
+                        <th>Tax Number</th>
+                        <th>Phone</th>
+                        <th>Adress</th>
+                        <th>Email</th>
+                        <th>Total Employee</th>
+                        <th>Foundation Year</th>
+                        <th>Contract Start Date</th>
+                        <th>Contract End Date</th>
+                        <th>Id Active</th>
+                    </tr>
+                </tfoot>
+                <tbody class="table-border-bottom-0">
+                    @foreach (var company in Model)
+                    {
+                        <tr name="@company.Id">
+                            <th>
+                                <img src="/images/@company.Logo" width="75px" />
+                            </th>
+                            <th>@company.CompanyName</th>
+                            <th>@company.Title</th>
+                            <th>@company.MersisNumber</th>
+                            <th>@company.TaxOffice</th>
+                            <th>@company.TaxNumber</th>
+
+                            <th>@company.Phone</th>
+                            <th>@company.Adress</th>
+                            <th>@company.Email</th>
+                            <th>@company.TotalEmployeeNumber</th>
+                            <th>@company.FoundationYear.ToShortDateString()</th>
+                            <th>@company.ContractStartDate.ToShortDateString()</th>
+                            <th>@company.ContractFinishDate.ToShortDateString()</th>
+                            <th>@(company.IsActive ? "Active" : "Not Active")</th>
+                            <td>
+                                <a class="btn btn-primary btn-sm" data-id="@company.Id" asp-area="SiteManager" asp-controller="Company" asp-action="Update" asp-route-articleId="@company.Id">
+                                    <i class='bx bxs-message-alt-edit'></i>
+                                </a>
+                                <a class="btn btn-danger btn-sm" data-id="@company.Id" asp-area="Admin" asp-controller="Company" asp-action="Delete" asp-route-articleId="@company.Id">
+                                    <i class='bx bx-trash'></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!--/ Basic Bootstrap Table -->
+
+</div>
+
+@section Scripts{
+    <script src="~/js/companyIndex.js" type="application/ecmascript"></script>
+}
