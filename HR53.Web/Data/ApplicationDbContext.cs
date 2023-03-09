@@ -12,6 +12,7 @@ namespace HR53.Web.Data
         }
 
         public DbSet<Company> Companies { get; set; }
+        public DbSet<Employee> Employees { get; set; }
 
     }
 }
