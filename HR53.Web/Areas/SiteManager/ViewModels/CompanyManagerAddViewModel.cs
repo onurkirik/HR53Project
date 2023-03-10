@@ -1,11 +1,12 @@
 ﻿using HR53.Web.Validations;
-using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 
-namespace HR53.Web.Models
+namespace HR53.Web.Areas.SiteManager.ViewModels
 {
-    public class Employee : IdentityUser
+    public class CompanyManagerAddViewModel
     {
+        public int Id { get; set; }
+
         [FirstNameValidation(ErrorMessage = "Invalid first name")]
         public string Firstname { get; set; }
 
@@ -36,7 +37,6 @@ namespace HR53.Web.Models
         [DepartmentValidation(ErrorMessage = "Invalid department name")]
         public string Department { get; set; }
 
-        [EmailAddress(ErrorMessage = "Invalid email")]
         public string Email { get; set; }
 
         public string Adress { get; set; }
@@ -45,6 +45,6 @@ namespace HR53.Web.Models
         public string PhoneNumber { get; set; }
 
         [PictureValidation(ErrorMessage = "Invalid image")]
-        public string? PhotoUrl { get; set; }
+        public IFormFile? PhotoUrl { get; set; }
     }
 }
