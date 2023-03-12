@@ -27,6 +27,56 @@ namespace HR53.Web.Areas.SiteManager.Controllers
             return View(companies);
         }
 
+        public async Task<IActionResult> Update(string companyId)
+        {
+            var company = await _db.Companies.FirstOrDefaultAsync(c => c.Id == companyId);
+
+            var vm = new CompanyUpdateViewModel()
+            {
+                CompanyId = company.Id,
+                CompanyName = company.CompanyName,
+                Title = company.Title,
+                MersisNumber = company.MersisNumber,
+                TaxOffice = company.TaxOffice,
+                TaxNumber = company.TaxNumber,
+                Phone = company.Phone,
+                Adress = company.Adress,
+                Email = company.Email,
+                TotalEmployeeNumber = company.TotalEmployeeNumber,
+                FoundationYear = company.FoundationYear,
+                ContractStartDate = company.ContractStartDate,
+                ContractFinishDate = company.ContractFinishDate,
+                IsActive = company.IsActive
+            };
+
+            return View(vm);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(CompanyUpdateViewModel request)
+        {
+            var companyToUpdate = await _db.Companies.FirstOrDefaultAsync(c => c.Id == request.CompanyId);
+
+            companyToUpdate.CompanyName= request.CompanyName;
+            companyToUpdate.Title= request.Title;
+            companyToUpdate.MersisNumber= request.MersisNumber;
+            companyToUpdate.TaxOffice= request.TaxOffice;
+            companyToUpdate.TaxNumber= request.TaxNumber;
+            companyToUpdate.Phone= request.Phone;
+            companyToUpdate.Adress= request.Adress;
+            companyToUpdate.Email= request.Email;
+            companyToUpdate.TotalEmployeeNumber= request.TotalEmployeeNumber;
+            companyToUpdate.FoundationYear= request.FoundationYear;
+            companyToUpdate.ContractStartDate= request.ContractStartDate;
+            companyToUpdate.ContractFinishDate= request.ContractFinishDate;
+            companyToUpdate.IsActive= request.IsActive;
+
+            _db.Companies.Update(companyToUpdate);
+            await _db.SaveChangesAsync();
+
+            return RedirectToAction("Index", "Company");
+        }
+
         public async Task<IActionResult> Add()
         {
             return View();
@@ -39,6 +89,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
 
             var newCompany = new Company()
             {
+                Id = Guid.NewGuid().ToString(),
                 CompanyName = vm.CompanyName,
                 Title = vm.Title,
                 MersisNumber = vm.MersisNumber,
@@ -71,7 +122,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
             await _db.Companies.AddAsync(newCompany);
             await _db.SaveChangesAsync();
 
-            return View();
+            return RedirectToAction("Index", "Company");
         }
 
 

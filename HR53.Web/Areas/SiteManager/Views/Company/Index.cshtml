@@ -8,7 +8,7 @@
     <div class="card">
         <div class="table-responsive text-nowrap">
             <a asp-area="SiteManager" asp-controller="Company" asp-action="Add" class="btn btn-warning mb-4"><i class='bx bx-comment-add'></i> Add Company</a>
-            <table class="table" id="companiesTable" width="100%" collspacing="0">
+            <table class="table px-2" id="companiesTable" width="100%" collspacing="0">
                 <thead>
                     <tr>
                         <th>Logo</th>
@@ -50,7 +50,7 @@
                             <th>@company.ContractFinishDate.ToShortDateString()</th>
                             <th>@(company.IsActive ? "Active" : "Not Active")</th>
                             <th>
-                                <a class="btn btn-primary btn-sm" data-id="@company.Id" asp-area="SiteManager" asp-controller="Company" asp-action="Update" asp-route-articleId="@company.Id">
+                                <a class="btn btn-primary btn-sm" data-id="@company.Id" asp-area="SiteManager" asp-controller="Company" asp-action="Update" asp-route-companyId="@company.Id">
                                     <i class='bx bxs-message-alt-edit'></i>
                                 </a>
                             </th>

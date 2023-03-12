@@ -4,7 +4,8 @@ namespace HR53.Web.Models
 {
     public class Company
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
+
         [CompanyValidation]
         public string CompanyName { get; set; } = null!;
         
@@ -46,5 +47,8 @@ namespace HR53.Web.Models
         
         [CompanyValidation]
         public bool IsActive { get; set; }
+
+        public string? UserId { get; set; }
+        public AppUser User { get; set; }
     }
 }

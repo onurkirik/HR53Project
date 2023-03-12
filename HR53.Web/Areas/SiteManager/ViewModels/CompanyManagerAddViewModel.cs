@@ -5,7 +5,8 @@ namespace HR53.Web.Areas.SiteManager.ViewModels
 {
     public class CompanyManagerAddViewModel
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
+        public string UserName { get; set; } = "CompanyManager";
 
         [FirstNameValidation(ErrorMessage = "Invalid first name")]
         public string Firstname { get; set; }
@@ -43,6 +44,7 @@ namespace HR53.Web.Areas.SiteManager.ViewModels
 
         [PhoneNumberValidation(ErrorMessage = "Invalid phone number")]
         public string PhoneNumber { get; set; }
+        public string? Password { get; set; }
 
         [PictureValidation(ErrorMessage = "Invalid image")]
         public IFormFile? PhotoUrl { get; set; }

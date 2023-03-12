@@ -1,7 +1,7 @@
-﻿@model List<Employee>
+﻿@model List<AppUser>
 <div class="container-xxl flex-grow-1 container-p-y">
     <h4 class="fw-bold py-3 mb-4">
-        <span class="text-muted fw-light">Employee Management /</span> Employees
+        <span class="text-muted fw-light">Manager Management /</span> Managers
     </h4>
 
     <!-- Basic Bootstrap Table -->
@@ -29,30 +29,30 @@
                     </tr>
                 </thead>
                 <tbody class="table-border-bottom-0">
-                    @foreach (var employee in Model)
+                    @foreach (var manager in Model)
                     {
-                        <tr name="@employee.Id">
+                        <tr name="@manager.Id">
                             <th>
-                                <img src="/images/@employee.PhotoUrl" width="75px" />
+                                <img src="/images/@manager.Picture" width="75px" />
                             </th>
-                            <th>@employee.Firstname</th>
-                            <th>@employee.Middlename</th>
-                            <th>@employee.Surname</th>
-                            <th>@employee.SecondSurname</th>
-                            <th>@employee.Birthplace</th>
-                            <th>@employee.Birthplace</th>
-                            <th>@employee.IdentityCardNo</th>
-                            <th>@employee.EmploymentDate</th>
-                            <th>@employee.Profession</th>
-                            <th>@employee.Department</th>
-                            <th>@employee.Email</th>
-                            <th>@employee.Adress</th>
-                            <th>@employee.PhoneNumber</th>
+                            <th>@manager.Firstname</th>
+                            <th>@manager.MiddleName</th>
+                            <th>@manager.LastName</th>
+                            <th>@manager.SecondSurname</th>
+                            <th>@manager.Birthplace</th>
+                            <th>@manager.Birthplace</th>
+                            <th>@manager.IdentityCardNo</th>
+                            <th>@manager.EmploymentDate</th>
+                            <th>@manager.Profession</th>
+                            <th>@manager.Department</th>
+                            <th>@manager.Email</th>
+                            <th>@manager.Adress</th>
+                            <th>@manager.PhoneNumber</th>
                             <th>
-                                <a class="btn btn-primary btn-sm" data-id="@employee.Id" asp-area="SiteManager" asp-controller="CompanyManager" asp-action="Update" asp-route-employeeId="@employee.Id">
+                                <a class="btn btn-primary btn-sm" data-id="@manager.Id" asp-area="SiteManager" asp-controller="CompanyManager" asp-action="Update" asp-route-managerId="@manager.Id">
                                     <i class='bx bxs-message-alt-edit'></i>
                                 </a>
-                                <a class="btn btn-danger btn-sm" data-id="@employee.Id" asp-area="SiteManager" asp-controller="CompanyManager" asp-action="Delete" asp-route-articleId="@employee.Id">
+                                <a class="btn btn-danger btn-sm" data-id="@manager.Id" asp-area="SiteManager" asp-controller="CompanyManager" asp-action="Delete" asp-route-managerId="@manager.Id">
                                     <i class='bx bx-trash'></i>
                                 </a>
                             </th>
