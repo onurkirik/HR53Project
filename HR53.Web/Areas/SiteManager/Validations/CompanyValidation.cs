@@ -1,4 +1,4 @@
-﻿using HR53.Web.Models;
+﻿using HR53.Repository.Entities;
 using System.ComponentModel.DataAnnotations;
 
 namespace HR53.Web.Areas.SiteManager.Validations

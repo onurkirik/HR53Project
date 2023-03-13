@@ -1,7 +1,6 @@
 using HR53.Web.ClaimProviders;
-using HR53.Web.Data;
-using HR53.Web.Models;
-using HR53.Web.Services;
+using HR53.Repository.Entities;
+using HR53.Service.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
@@ -10,13 +9,17 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<ApplicationDbContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString")));
+builder.Services.AddDbContext<ApplicationDbContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString"), options =>
+{
+    options.MigrationsAssembly("HR53.Repository");
+}));
 
 builder.Services.AddSingleton<IFileProvider>(new PhysicalFileProvider(Directory.GetCurrentDirectory()));
 
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<IClaimsTransformation, UserClaimProvider>();
+builder.Services.AddScoped<IMemberService, MemberService>();
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AnkaraPolicy", p =>

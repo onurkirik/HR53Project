@@ -1,10 +1,12 @@
 ﻿using HR53.Web.Extensions;
-using HR53.Web.Models;
-using HR53.Web.ViewModels;
+using HR53.Repository.Entities;
+using HR53.Core.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Security.Claims;
+using HR53.Core.Models;
+using HR53.Service.Services;
 
 namespace HR53.Web.Controllers
 {
@@ -13,12 +15,15 @@ namespace HR53.Web.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly IMemberService _memberService;
+        private string username => User.Identity!.Name!;
 
-        public HomeController(ILogger<HomeController> logger, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+        public HomeController(ILogger<HomeController> logger, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IMemberService memberService)
         {
             _logger = logger;
             _userManager = userManager;
             _signInManager = signInManager;
+            _memberService = memberService;
         }
 
         public IActionResult Index()
@@ -124,7 +129,7 @@ namespace HR53.Web.Controllers
 
         public async Task LogOut()
         {
-            await _signInManager.SignOutAsync();
+            await _memberService.LogOutAsync();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

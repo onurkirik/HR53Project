@@ -1,9 +1,8 @@
-﻿using HR53.Web.Models;
+﻿using HR53.Repository.Entities;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using System.Drawing.Text;
 using System.Security.Claims;
-using HR53.Web.Models;
 
 namespace HR53.Web.ClaimProviders
 {

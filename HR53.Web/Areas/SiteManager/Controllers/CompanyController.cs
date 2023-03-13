@@ -1,6 +1,5 @@
 ﻿using HR53.Web.Areas.SiteManager.ViewModels;
-using HR53.Web.Data;
-using HR53.Web.Models;
+using HR53.Repository.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

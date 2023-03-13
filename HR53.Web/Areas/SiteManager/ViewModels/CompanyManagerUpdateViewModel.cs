@@ -1,5 +1,4 @@
-﻿using HR53.Web.Models;
-using HR53.Web.Validations;
+﻿using HR53.Repository.Entities;
 
 namespace HR53.Web.Areas.SiteManager.ViewModels
 {

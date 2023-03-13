@@ -1,4 +1,4 @@
-﻿using HR53.Web.Models;
+﻿using HR53.Repository.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using System.Text;

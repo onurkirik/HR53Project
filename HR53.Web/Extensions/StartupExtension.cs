@@ -1,5 +1,4 @@
-﻿using HR53.Web.Data;
-using HR53.Web.Models;
+﻿using HR53.Repository.Entities;
 using Microsoft.AspNetCore.Identity;
 using HR53.Web.CustomValidations;
 using HR53.Web.Localizations;
