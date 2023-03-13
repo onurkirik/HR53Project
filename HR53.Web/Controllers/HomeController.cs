@@ -99,7 +99,8 @@ namespace HR53.Web.Controllers
 
             if (signInResult.Succeeded)
             {
-                return Redirect(returnUrl);
+                return RedirectToAction("Index", "Home", new { area = "SiteManager" });
+
             }
 
             if (signInResult.IsLockedOut)
@@ -113,8 +114,12 @@ namespace HR53.Web.Controllers
                 $"Email veya şifreniz yanlış",
                 $"Başarısız giriş sayısı = {await _userManager.GetAccessFailedCountAsync(hasUser)}" });
 
+
             return View();
         }
+
+        
+
 
         public IActionResult AccessDenied(string ReturnUrl)
         {
