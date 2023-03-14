@@ -21,13 +21,15 @@ namespace HR53.Web.Areas.SiteManager.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<AppRole> _roleManager;
         private readonly IEmailService _emailService;
-        public CompanyManagerController(ApplicationDbContext db, IFileProvider fileProvider, UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IEmailService emailService)
+        private readonly IMemberService _memberService;
+        public CompanyManagerController(ApplicationDbContext db, IFileProvider fileProvider, UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IEmailService emailService, IMemberService memberService)
         {
             _db = db;
             _fileProvider = fileProvider;
             _userManager = userManager;
             _roleManager = roleManager;
             _emailService = emailService;
+            _memberService = memberService;
         }
         public async Task<IActionResult> Index()
         {
@@ -149,8 +151,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
 
         public async Task<IActionResult> Delete(string managerId)
         {
-            var deleteToManager = await _userManager.FindByIdAsync(managerId);
-            await _userManager.DeleteAsync(deleteToManager);
+            await _memberService.DeleteUserAsync(managerId);
 
             return RedirectToAction("Index", "CompanyManager");
         }
