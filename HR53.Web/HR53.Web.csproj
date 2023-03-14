@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\CompanyManager\" />
     <Folder Include="Areas\SiteManager\Data\" />
     <Folder Include="Areas\SiteManager\Models\" />
   </ItemGroup>
