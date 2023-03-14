@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using System.Data;
 using HR53.Repository.Data;
+using HR53.Service.Services;
 
 namespace HR53.Web.Areas.SiteManager.Controllers
 {
@@ -34,9 +35,17 @@ namespace HR53.Web.Areas.SiteManager.Controllers
             return View(managers);
         }
 
-        public IActionResult Add()
+        public async Task<IActionResult> Add()
         {
-            return View();
+
+            var companies = await _db.Companies.ToListAsync();
+
+            var vm = new CompanyManagerAddViewModel()
+            {
+                Companies = companies
+            };
+
+            return View(vm);
         }
 
         [HttpPost]
@@ -49,34 +58,35 @@ namespace HR53.Web.Areas.SiteManager.Controllers
 
             var emloyee = await _userManager.CreateAsync(new()
             {
-                Firstname = request.Firstname,
-                MiddleName = request.Middlename,
-                LastName = request.Surname,
-                SecondSurname = request.SecondSurname,
-                Birthdate = request.Birthdate,
-                Birthplace = request.Birthplace,
-                IdentityCardNo = request.IdentityCardNo,
-                EmploymentDate = request.EmploymentDate,
-                Profession = request.Profession,
-                Department = request.Department,
-                Email = request.Email,
-                Adress = request.Adress,
-                PhoneNumber = request.PhoneNumber,
-                UserName = request.Firstname
-            });
+                Firstname = request.User.Firstname,
+                MiddleName = request.User.MiddleName,
+                LastName = request.User.LastName,
+                SecondSurname = request.User.SecondSurname,
+                Birthdate = request.User.Birthdate,
+                Birthplace = request.User.Birthplace,
+                IdentityCardNo = request.User.IdentityCardNo,
+                EmploymentDate = request.User.EmploymentDate,
+                Profession = request.User.Profession,
+                Department = request.User.Department,
+                Email = request.User.Email,
+                Adress = request.User.Adress,
+                PhoneNumber = request.User.PhoneNumber,
+                UserName = request.User.Firstname + request.User.LastName,
+                CompanyIdString = request.User.CompanyIdString
+        });
 
-            var createdEmployee = await _userManager.FindByEmailAsync(request.Email);
+            var createdEmployee = await _userManager.FindByEmailAsync(request.User.Email);
 
-            if (request.PhotoUrl != null && request.PhotoUrl.Length > 0)
+            if (request.User.Picture != null && request.User.Picture.Length > 0)
             {
                 var wwrootFolder = _fileProvider.GetDirectoryContents("wwwroot");
-                var randomFileName = $"{Guid.NewGuid().ToString()}{Path.GetExtension(request.PhotoUrl.FileName)}";
+                var randomFileName = $"{Guid.NewGuid().ToString()}{Path.GetExtension(request.PictureUrl.FileName)}";
 
                 var newLogoPath = Path.Combine(wwrootFolder.First(x => x.Name == "images").PhysicalPath, randomFileName);
 
                 using var stream = new FileStream(newLogoPath, FileMode.Create);
 
-                await request.PhotoUrl.CopyToAsync(stream);
+                await request.PictureUrl.CopyToAsync(stream);
                 createdEmployee.Picture = randomFileName;
                 await _userManager.UpdateAsync(createdEmployee);
             }
