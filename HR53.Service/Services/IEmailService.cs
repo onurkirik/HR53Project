@@ -2,7 +2,6 @@
 {
     public interface IEmailService
     {
-        Task SendResetEmail(string resetEmailLink, string ToEmail);
-
+        Task SendRegisterEmail(string signInLink, string ToEmail, string password);
     }
 }
