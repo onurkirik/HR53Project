@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using HR53.Web.CustomValidations;
 using HR53.Web.Localizations;
+using HR53.Repository.Data;
 
 namespace HR53.Web.Extensions
 {

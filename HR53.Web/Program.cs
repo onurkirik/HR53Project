@@ -4,6 +4,7 @@ using HR53.Service.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
+using HR53.Repository.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

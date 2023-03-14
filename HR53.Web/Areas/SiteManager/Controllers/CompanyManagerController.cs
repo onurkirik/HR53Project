@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using System.Data;
+using HR53.Repository.Data;
 
 namespace HR53.Web.Areas.SiteManager.Controllers
 {

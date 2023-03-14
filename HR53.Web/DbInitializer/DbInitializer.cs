@@ -1,4 +1,4 @@
-﻿using HR53.Repository.Entities;
+﻿using HR53.Repository.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using HR53.Repository.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace HR53.Repository.Entities
+namespace HR53.Repository.Data
 {
     public class ApplicationDbContext : IdentityDbContext<AppUser, AppRole, string>
     {
