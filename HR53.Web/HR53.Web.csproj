@@ -26,7 +26,8 @@
   <ItemGroup>
     <Folder Include="Areas\CompanyManager\Data\" />
     <Folder Include="Areas\CompanyManager\Models\" />
-    <Folder Include="Areas\CompanyManager\Views\" />
+    <Folder Include="Areas\CompanyManager\Data\" />
+    <Folder Include="Areas\CompanyManager\Models\" />
     <Folder Include="Areas\SiteManager\Data\" />
     <Folder Include="Areas\SiteManager\Models\" />
   </ItemGroup>
