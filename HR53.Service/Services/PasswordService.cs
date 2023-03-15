@@ -8,21 +8,14 @@ namespace HR53.Service.Services
 {
     public class PasswordService : IPasswordService
     {
-        List<string> _password=new List<string>() { "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"};
-
-        //string password=
-        public Task GeneratePassword(string password)
+        public async Task<string> GeneratePasswordAsync(int length)
         {
-            throw new NotImplementedException();
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            var random = new Random();
+            var password = await Task.Run(() => new string(Enumerable.Repeat(chars, length)
+                .Select(s => s[random.Next(s.Length)]).ToArray()));
+            return password;
         }
 
-
-        //public Task GeneratePassword(int length)
-        //{
-        //    const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-        //    var random = new Random();
-        //    return new string(Enumerable.Repeat(chars, length)
-        //      .Select(s => s[random.Next(s.Length)]).ToArray());
-        //}
     }
 }

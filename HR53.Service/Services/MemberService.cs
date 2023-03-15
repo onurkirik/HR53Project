@@ -19,6 +19,12 @@ namespace HR53.Service.Services
             _userManager = userManager;
         }
 
+        public async Task DeleteUserAsync(string id)
+        {
+            var deleteToUser = await _userManager.FindByIdAsync(id);
+            await _userManager.DeleteAsync(deleteToUser);
+        }
+
         async public Task LogOutAsync()
         {
             await _signInManager.SignOutAsync();

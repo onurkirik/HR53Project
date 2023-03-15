@@ -2,8 +2,9 @@
 
 namespace HR53.Web.Areas.CompanyManager.Controllers
 {
+    
     [Area("CompanyManager")]
-    public class HomeController : Controller
+    public class EmployeeController : Controller
     {
         public IActionResult Index()
         {
