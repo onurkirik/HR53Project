@@ -17,6 +17,20 @@ namespace HR53.Repository.Entities
         public string? Adress { get; set; }
         public string? City { get; set; }
         public string? Picture { get; set; }
+        [ProtectedPersonalData]
+        public override string Email { get; set; }
+
+        public string DisplayEmail
+        {
+            get
+            {
+                if (Firstname == null || LastName == null) return null; // Firstname veya LastName null ise null döndürün
+                var emailName = Email?.Split('@')[0] ?? ""; // Email özelliği null ise boş bir string döndürün
+                return Firstname.ToLower() + "." + LastName.ToLower() + "@bilgeadam.com";
+
+            }
+            set { Email = value; }
+        }
 
 
         public string? CompanyIdString { get; set; }

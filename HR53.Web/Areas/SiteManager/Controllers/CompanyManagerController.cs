@@ -77,10 +77,10 @@ namespace HR53.Web.Areas.SiteManager.Controllers
                 EmploymentDate = request.User.EmploymentDate,
                 Profession = request.User.Profession,
                 Department = request.User.Department,
-                Email = request.User.Email,
+                Email = request.User.DisplayEmail,
                 Adress = request.User.Adress,
                 PhoneNumber = request.User.PhoneNumber,
-                UserName = request.User.Email,
+                UserName = request.User.DisplayEmail,
                 CompanyIdString = request.User.CompanyIdString
             }, request.Password);
 
