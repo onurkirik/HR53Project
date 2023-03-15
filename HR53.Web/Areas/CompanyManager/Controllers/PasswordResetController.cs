@@ -2,6 +2,7 @@
 
 namespace HR53.Web.Areas.CompanyManager.Controllers
 {
+    [Area("CompanyManager")]
     public class PasswordResetController : Controller
     {
         public IActionResult Index()
