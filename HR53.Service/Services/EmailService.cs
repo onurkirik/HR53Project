@@ -38,5 +38,6 @@ namespace HR53.Service.Services
 
             await smtpClient.SendMailAsync(mailMessage);
         }
+
     }
 }
