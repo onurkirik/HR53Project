@@ -80,7 +80,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
                 Email = request.User.Email,
                 Adress = request.User.Adress,
                 PhoneNumber = request.User.PhoneNumber,
-                UserName = request.User.Firstname + request.User.LastName,
+                UserName = request.User.Email,
                 CompanyIdString = request.User.CompanyIdString
             }, request.Password);
 
