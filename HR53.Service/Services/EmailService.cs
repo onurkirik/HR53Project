@@ -14,7 +14,7 @@ namespace HR53.Service.Services
             _emailSettings = options.Value;
         }
 
-        public async Task SendResetEmail(string resetEmailLink, string ToEmail)
+        public async Task SendRegisterEmail(string signInLink, string ToEmail, string password)
         {
             var smtpClient = new SmtpClient();
 
@@ -29,10 +29,10 @@ namespace HR53.Service.Services
             mailMessage.From = new MailAddress(_emailSettings.Email);
             mailMessage.To.Add(ToEmail);
 
-            mailMessage.Subject = "Localhost | Şifre sıfırlama linki";
-            mailMessage.Body = @$"<h4>Şifrenizi yenilemek için aşağıdaki linke tıklayınız. </h4>
+            mailMessage.Subject = "Localhost | HR53 register transaction is completed.";
+            mailMessage.Body = @$"<h4>Your password: {password}</h4>
                     <p>
-                        <a href='{resetEmailLink}'>Şifre Yenlileme Linki</a> 
+                        <a href='{signInLink}'>SignIn Link</a> 
                     </p>";
             mailMessage.IsBodyHtml = true;
 

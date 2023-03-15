@@ -8,6 +8,7 @@ using Microsoft.Extensions.FileProviders;
 using System.Data;
 using HR53.Repository.Data;
 using HR53.Service.Services;
+using System.Collections.Generic;
 
 namespace HR53.Web.Areas.SiteManager.Controllers
 {
@@ -19,12 +20,16 @@ namespace HR53.Web.Areas.SiteManager.Controllers
         private readonly IFileProvider _fileProvider;
         private readonly UserManager<AppUser> _userManager;
         private readonly RoleManager<AppRole> _roleManager;
-        public CompanyManagerController(ApplicationDbContext db, IFileProvider fileProvider, UserManager<AppUser> userManager, RoleManager<AppRole> roleManager)
+        private readonly IEmailService _emailService;
+        private readonly IMemberService _memberService;
+        public CompanyManagerController(ApplicationDbContext db, IFileProvider fileProvider, UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IEmailService emailService, IMemberService memberService)
         {
             _db = db;
             _fileProvider = fileProvider;
             _userManager = userManager;
             _roleManager = roleManager;
+            _emailService = emailService;
+            _memberService = memberService;
         }
         public async Task<IActionResult> Index()
         {
@@ -55,6 +60,10 @@ namespace HR53.Web.Areas.SiteManager.Controllers
 
             var role = await _roleManager.FindByNameAsync("CompanyManager");
             var roleName = role.Name;
+            var password = "Ankara1.";
+            request.Password = password;
+            
+            var signInLink = Url.Action("SignIn", "Home", HttpContext.Request.Scheme, "localhost:7084/Home/SignIn");
 
             var emloyee = await _userManager.CreateAsync(new()
             {
@@ -73,11 +82,11 @@ namespace HR53.Web.Areas.SiteManager.Controllers
                 PhoneNumber = request.User.PhoneNumber,
                 UserName = request.User.Firstname + request.User.LastName,
                 CompanyIdString = request.User.CompanyIdString
-        });
+            }, request.Password);
 
             var createdEmployee = await _userManager.FindByEmailAsync(request.User.Email);
 
-            if (request.User.Picture != null && request.User.Picture.Length > 0)
+            if (request.PictureUrl != null && request.PictureUrl.Length > 0)
             {
                 var wwrootFolder = _fileProvider.GetDirectoryContents("wwwroot");
                 var randomFileName = $"{Guid.NewGuid().ToString()}{Path.GetExtension(request.PictureUrl.FileName)}";
@@ -92,6 +101,8 @@ namespace HR53.Web.Areas.SiteManager.Controllers
             }
 
             await _userManager.AddToRoleAsync(createdEmployee, roleName);
+
+            await _emailService.SendRegisterEmail(signInLink, createdEmployee.Email, password);
 
             return RedirectToAction("Index", "CompanyManager");
         }
@@ -134,6 +145,13 @@ namespace HR53.Web.Areas.SiteManager.Controllers
 
             var result = await _userManager.UpdateAsync(user);
 
+
+            return RedirectToAction("Index", "CompanyManager");
+        }
+
+        public async Task<IActionResult> Delete(string managerId)
+        {
+            await _memberService.DeleteUserAsync(managerId);
 
             return RedirectToAction("Index", "CompanyManager");
         }
