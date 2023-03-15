@@ -8,6 +8,8 @@ namespace HR53.Service.Services
 {
     public interface IPasswordService
     {
-        Task GeneratePassword(string password);
+        Task<string>  GeneratePasswordAsync(int length);
+
+       
     }
 }
