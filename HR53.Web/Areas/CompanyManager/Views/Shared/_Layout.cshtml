@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Blog - Blog Yönetimi</title>
+    <title>CompanyManager - HomePage</title>
 
     <meta name="description" content="Most Powerful &amp; Comprehensive Bootstrap 5 HTML Admin Dashboard Template built for developers!" />
     <meta name="keywords" content="dashboard, bootstrap 5 dashboard, bootstrap 5 design, bootstrap 5">
@@ -86,12 +86,12 @@
                             <div data-i18n="Analytics">Employee Management</div>
                         </a>
                     </li>
-                    @*<li class="menu-item">
-                    <a asp-area="SiteManager" asp-controller="CompanyManager" asp-action="Index" class="menu-link">
+                    <li class="menu-item">
+                    <a asp-area="CompanyManager" asp-controller="Password" asp-action="Reset" class="menu-link">
                             <i class='menu-icon bx bx-paper-plane'></i>
-                    <div data-i18n="Analytics">Company Manager Management</div>
+                    <div data-i18n="Analytics">Password Settings</div>
                     </a>
-                    </li>*@
+                    </li>
                 </ul>
             </aside>
             <!-- / Menu -->
@@ -121,7 +121,7 @@
                                                 <div class="d-flex">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar avatar-online">
-                                                            <img src="~/images/bg.jpg" alt="avukat_nurselenay_zengin" class="w-px-40 h-auto rounded-circle">
+                                                            <img src="~/images/bg.jpg" alt="" class="w-px-40 h-auto rounded-circle">
                                                         </div>
                                                     </div>
                                                     <div class="flex-grow-1">
@@ -137,7 +137,7 @@
                                         <li>
                                             <div class="dropdown-divider"></div>
                                         </li>
-                                        @if (User.HasClaim(x => x.Type == ClaimTypes.Role && x.Value == "SiteManager"))
+                                        @if (User.HasClaim(x => x.Type == ClaimTypes.Role && x.Value == "CompanyManager"))
                                         {
                                             <li>
                                                 <a class="dropdown-item" asp-route-returnUrl="/Home/Index" asp-area="" asp-controller="Home" asp-action="LogOut">

@@ -84,7 +84,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
                 Adress = request.User.Adress,
                 PhoneNumber = request.User.PhoneNumber,
                 CompanyIdString = request.User.CompanyIdString,
-                UserName = request.User.Firstname.ToUpper()
+                UserName = request.User.Firstname.ToUpper() + request.User.LastName.ToUpper()
                 
             }, request.Password);
 
