@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using HR53.Repository.Entities.Validations;
+using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
 namespace HR53.Repository.Entities
 {
@@ -10,6 +12,8 @@ namespace HR53.Repository.Entities
         public string? SecondSurname { get; set; }
         public DateTime Birthdate { get; set; }
         public string? Birthplace { get; set; }
+
+        [IdentityCardNoValidation(ErrorMessage = "The Identity No is Invalid")]
         public string? IdentityCardNo { get; set; }
         public DateTime EmploymentDate { get; set; }
         public string? Profession { get; set; }
