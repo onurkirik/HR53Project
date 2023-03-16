@@ -24,8 +24,4 @@
     <ProjectReference Include="..\HR53.Core\HR53.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Entities\Validations\" />
-  </ItemGroup>
-
 </Project>
