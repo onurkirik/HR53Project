@@ -21,6 +21,7 @@ namespace HR53.Repository.Entities
         public string? Adress { get; set; }
         public string? City { get; set; }
         public string? Picture { get; set; }
+        public override string? UserName { get; set; }
         private string? _companyEmail { get; set; }
         public string? CompanyEmail
         {
