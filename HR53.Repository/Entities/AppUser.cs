@@ -17,6 +17,17 @@ namespace HR53.Repository.Entities
         public string? Adress { get; set; }
         public string? City { get; set; }
         public string? Picture { get; set; }
+        private string? _companyEmail { get; set; }
+        public string? CompanyEmail
+        {
+            get
+            {
+                if (Firstname == null || LastName == null) return null; // Firstname veya LastName null ise null döndürün
+                return Firstname.ToLower() + "." + LastName.ToLower() + "@bilgeadam.com";
+
+            }
+            set { _companyEmail = value; }
+        }
 
 
         public string? CompanyIdString { get; set; }
