@@ -63,8 +63,8 @@ namespace HR53.Web.Areas.SiteManager.Controllers
 
             var role = await _roleManager.FindByNameAsync("CompanyManager");
             var roleName = role.Name;
-            var password =await _passwordService.GeneratePasswordAsync(8);
-            request.Password = password;
+            var password =await _passwordService.GeneratePasswordAsync(4);
+            request.Password = password+".";
 
             var signInLink = "https://localhost:7084/home/signin";
 
@@ -85,6 +85,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
                 PhoneNumber = request.User.PhoneNumber,
                 UserName = request.User.CompanyEmail,
                 CompanyIdString = request.User.CompanyIdString
+                
             }, request.Password);
 
             var createdEmployee = await _userManager.FindByEmailAsync(request.User.Email);

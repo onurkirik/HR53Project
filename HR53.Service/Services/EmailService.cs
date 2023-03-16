@@ -30,7 +30,7 @@ namespace HR53.Service.Services
             mailMessage.To.Add(ToEmail);
 
             mailMessage.Subject = "Localhost | HR53 register transaction is completed.";
-            mailMessage.Body = @$"<h4>Your password: {password}</h4>
+            mailMessage.Body = @$"<h4>Your password: {password}.</h4>
                     <p>
                         <a href='{signInLink}'>SignIn Link</a> 
                     </p>";

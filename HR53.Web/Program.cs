@@ -24,6 +24,7 @@ builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Applic
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<IClaimsTransformation, UserClaimProvider>();
 builder.Services.AddScoped<IMemberService, MemberService>();
+builder.Services.AddScoped<IPasswordService, PasswordService>();
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("AnkaraPolicy", p =>
