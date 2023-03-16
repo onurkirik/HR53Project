@@ -62,8 +62,8 @@ namespace HR53.Web.Areas.SiteManager.Controllers
             var roleName = role.Name;
             var password = "Ankara1.";
             request.Password = password;
-            
-            var signInLink = Url.Action("SignIn", "Home", HttpContext.Request.Scheme, "localhost:7084/Home/SignIn");
+
+            var signInLink = "https://localhost:7084/home/signin";
 
             var emloyee = await _userManager.CreateAsync(new()
             {
@@ -77,10 +77,10 @@ namespace HR53.Web.Areas.SiteManager.Controllers
                 EmploymentDate = request.User.EmploymentDate,
                 Profession = request.User.Profession,
                 Department = request.User.Department,
-                Email = request.User.DisplayEmail,
+                Email = request.User.Email,
                 Adress = request.User.Adress,
                 PhoneNumber = request.User.PhoneNumber,
-                UserName = request.User.DisplayEmail,
+                UserName = request.User.CompanyEmail,
                 CompanyIdString = request.User.CompanyIdString
             }, request.Password);
 
