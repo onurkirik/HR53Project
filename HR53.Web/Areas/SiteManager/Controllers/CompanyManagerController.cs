@@ -22,7 +22,9 @@ namespace HR53.Web.Areas.SiteManager.Controllers
         private readonly RoleManager<AppRole> _roleManager;
         private readonly IEmailService _emailService;
         private readonly IMemberService _memberService;
-        public CompanyManagerController(ApplicationDbContext db, IFileProvider fileProvider, UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IEmailService emailService, IMemberService memberService)
+        private readonly IPasswordService _passwordService;
+
+        public CompanyManagerController(ApplicationDbContext db, IFileProvider fileProvider, UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IEmailService emailService, IMemberService memberService, IPasswordService passwordService)
         {
             _db = db;
             _fileProvider = fileProvider;
@@ -30,6 +32,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
             _roleManager = roleManager;
             _emailService = emailService;
             _memberService = memberService;
+            _passwordService = passwordService;
         }
         public async Task<IActionResult> Index()
         {
@@ -60,10 +63,10 @@ namespace HR53.Web.Areas.SiteManager.Controllers
 
             var role = await _roleManager.FindByNameAsync("CompanyManager");
             var roleName = role.Name;
-            var password = "Ankara1.";
-            request.Password = password;
-            
-            var signInLink = Url.Action("SignIn", "Home", HttpContext.Request.Scheme, "localhost:7084/Home/SignIn");
+            var password =await _passwordService.GeneratePasswordAsync(4);
+            request.Password = password+".";
+
+            var signInLink = "https://localhost:7084/home/signin";
 
             var emloyee = await _userManager.CreateAsync(new()
             {
@@ -77,11 +80,12 @@ namespace HR53.Web.Areas.SiteManager.Controllers
                 EmploymentDate = request.User.EmploymentDate,
                 Profession = request.User.Profession,
                 Department = request.User.Department,
-                Email = request.User.DisplayEmail,
+                Email = request.User.Email,
                 Adress = request.User.Adress,
                 PhoneNumber = request.User.PhoneNumber,
-                UserName = request.User.DisplayEmail,
+                UserName = request.User.CompanyEmail,
                 CompanyIdString = request.User.CompanyIdString
+                
             }, request.Password);
 
             var createdEmployee = await _userManager.FindByEmailAsync(request.User.Email);

@@ -11,10 +11,17 @@ namespace HR53.Service.Services
         public async Task<string> GeneratePasswordAsync(int length)
         {
             const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            const string chars1 = "0123456789";
             var random = new Random();
-            var password = await Task.Run(() => new string(Enumerable.Repeat(chars, length)
+            var password1 = await Task.Run(() => new string(Enumerable.Repeat(chars, length)
                 .Select(s => s[random.Next(s.Length)]).ToArray()));
+            var password2 = await Task.Run(() => new string(Enumerable.Repeat(chars1, length)
+                .Select(s => s[random.Next(s.Length)]).ToArray()));
+
+            var password=password1 + password2;
+
             return password;
+        
         }
 
     }
