@@ -89,19 +89,25 @@ namespace HR53.Web.Controllers
 
             var hasUser = await _userManager.FindByEmailAsync(request.Email);
 
+
             if (hasUser == null)
             {
                 ModelState.AddModelError(string.Empty, "Email veya şifre yanlış");
                 return View();
             }
 
+            var hasUserRole = await _userManager.GetRolesAsync(hasUser);
+
+            var isSiteManager = await _userManager.IsInRoleAsync(hasUser, "SiteManager");
+            var isCompanyManager = await _userManager.IsInRoleAsync(hasUser, "CompanyManager");
+
             var signInResult = await _signInManager.PasswordSignInAsync(hasUser, request.Password, request.RememberMe, true);
 
-            if (signInResult.Succeeded)
-            {
+            if (signInResult.Succeeded && isSiteManager)
                 return RedirectToAction("Index", "Home", new { area = "SiteManager" });
 
-            }
+            if (signInResult.Succeeded && isCompanyManager)
+                return RedirectToAction("Index", "Home", new { area = "CompanyManager" });
 
             if (signInResult.IsLockedOut)
             {
@@ -117,9 +123,6 @@ namespace HR53.Web.Controllers
 
             return View();
         }
-
-        
-
 
         public IActionResult AccessDenied(string ReturnUrl)
         {
