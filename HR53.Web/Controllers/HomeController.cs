@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Security.Claims;
 using HR53.Core.Models;
-using HR53.Service.Services;
+using HR53.Service.Services.Abstraction;
 
 namespace HR53.Web.Controllers
 {

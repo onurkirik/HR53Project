@@ -1,6 +1,6 @@
 ﻿using HR53.Core.ViewModels;
 using HR53.Repository.Entities;
-using HR53.Service.Services;
+using HR53.Service.Services.Abstraction;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;

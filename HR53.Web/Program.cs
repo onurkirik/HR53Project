@@ -1,11 +1,12 @@
 using HR53.Web.ClaimProviders;
 using HR53.Repository.Entities;
-using HR53.Service.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using HR53.Repository.Data;
 using HR53.Core.OptionsModel;
+using HR53.Service.Services.Abstraction;
+using HR53.Service.Services.Concrete;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HR53.Service.Services
+namespace HR53.Service.Services.Abstraction
 {
     public interface IMemberService
     {

@@ -1,4 +1,4 @@
-﻿namespace HR53.Service.Services
+﻿namespace HR53.Service.Services.Abstraction
 {
     public interface IEmailService
     {

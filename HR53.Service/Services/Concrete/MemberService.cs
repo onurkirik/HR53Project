@@ -1,4 +1,5 @@
 ﻿using HR53.Repository.Entities;
+using HR53.Service.Services.Abstraction;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HR53.Service.Services
+namespace HR53.Service.Services.Concrete
 {
     public class MemberService : IMemberService
     {

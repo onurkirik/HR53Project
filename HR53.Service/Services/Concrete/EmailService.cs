@@ -2,8 +2,9 @@
 using System.Net;
 using System.Net.Mail;
 using HR53.Core.OptionsModel;
+using HR53.Service.Services.Abstraction;
 
-namespace HR53.Service.Services
+namespace HR53.Service.Services.Concrete
 {
     public class EmailService : IEmailService
     {

@@ -7,8 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using System.Data;
 using HR53.Repository.Data;
-using HR53.Service.Services;
 using System.Collections.Generic;
+using HR53.Service.Services.Abstraction;
 
 namespace HR53.Web.Areas.SiteManager.Controllers
 {
@@ -67,17 +67,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
             request.Password = password + ".";
 
             var signInLink = "https://localhost:7084/home/signin";
-
-            //string email="";
-            //if (!string.IsNullOrEmpty(request.User.MiddleName))
-            //{
-            //    email = $"{request.User.Firstname.ToLower()}.{request.User.MiddleName.ToLower()}.{request.User.LastName.ToLower()}@bilgeadamboost.com";
-            //}
-            //else
-            //{
-            //    email = $"{request.User.Firstname.ToLower()}.{request.User.LastName.ToLower()}@bilgeadamboost.com";
-            //}
-
+                       
             var emloyee = await _userManager.CreateAsync(new()
             {
                 Firstname = request.User.Firstname,
@@ -101,7 +91,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
         
             
 
-            var createdEmployee = await _userManager.FindByEmailAsync(request.User.Email);
+            var createdEmployee = await _userManager.FindByEmailAsync(request.User.CompanyEmail);
 
             if (request.PictureUrl != null && request.PictureUrl.Length > 0)
             {
