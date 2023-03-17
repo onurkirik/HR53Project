@@ -12,5 +12,6 @@ namespace HR53.Repository.Data
         }
 
         public DbSet<Company> Companies { get; set; }
+        public DbSet<Employee> Employees { get; set; }
     }
 }

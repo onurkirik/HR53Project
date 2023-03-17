@@ -35,5 +35,8 @@ namespace HR53.Repository.Entities
 
         public string? UserId { get; set; }
         public AppUser User { get; set; }
+
+        public List<Employee> Employees { get; set; }
+
     }
 }
