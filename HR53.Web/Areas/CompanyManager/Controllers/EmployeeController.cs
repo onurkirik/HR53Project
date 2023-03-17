@@ -26,7 +26,9 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var employees = await _db.Employees.ToListAsync();
+            var companyManager = await _userManager.FindByNameAsync(User.Identity.Name);
+            
+            var employees = await _db.Employees.Where(e => e.CompanyId == companyManager.CompanyIdString).ToListAsync();
 
             return View(employees);
         }
@@ -36,6 +38,7 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
             return View();
         }
 
+        [HttpPost]
         public async Task<IActionResult> Add(AddEmployeeViewModel request)
         {
             var companyManager = await _userManager.FindByNameAsync(User.Identity.Name);
@@ -44,6 +47,7 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
 
             var employee = new Employee()
             {
+                Id = Guid.NewGuid().ToString(),
                 Firstname = request.Firstname,
                 MiddleName = request.MiddleName,
                 LastName = request.LastName,
