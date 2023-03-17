@@ -2,6 +2,7 @@
 {
     public class CompanyAddViewModel
     {
+
         public string CompanyName { get; set; } = null!;
         public string Title { get; set; } = null!;
         public string MersisNumber { get; set; } = null!;

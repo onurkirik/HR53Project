@@ -5,25 +5,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HR53.Repository.Entities.Validations
+namespace HR53.Repository.Entities.Attributes
 {
-    public class IdentityCardNoValidation : ValidationAttribute
+    public class IdentityCardNoAttribute:ValidationAttribute
     {
-        public override bool IsValid(object? value)
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             if (value == null)
-                return false;
-
+                return new ValidationResult("Identity number is required.");
             string identityNumber = value.ToString().Trim();
             if (identityNumber.Length != 11)
-                return false;
+                return new ValidationResult("Identity number must be 11 digits.");
+
             if (identityNumber.Any(i => !Char.IsDigit(i)))
-                return false;
+                return new ValidationResult("Identity number must only contain digits.");
+
             if (Convert.ToInt32(identityNumber[0].ToString()) == 0)
-                return false;
+                return new ValidationResult("Identity number cannot start with 0.");
 
             var total = 0; var ciftTotal = 0; var tekTotal = 0;
-
 
             for (int i = 0; i <= 9; i++)
             {
@@ -35,14 +35,13 @@ namespace HR53.Repository.Entities.Validations
             }
 
             if ((7 * tekTotal - ciftTotal) % 10 != Convert.ToInt32(identityNumber[9].ToString()))
-                return false;
+                return new ValidationResult("Identity number is invalid.");
 
             if (total % 10 != Convert.ToInt32(identityNumber[10].ToString()))
-                return false;
-            return true;
+                return new ValidationResult("Identity number is invalid.");
+
+            return ValidationResult.Success;
         }
-
-
 
     }
 }

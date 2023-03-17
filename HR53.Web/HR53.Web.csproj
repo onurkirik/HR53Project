@@ -33,6 +33,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\HR53.Core\HR53.Core.csproj" />
+    <ProjectReference Include="..\HR53.Repository\HR53.Repository.csproj" />
     <ProjectReference Include="..\HR53.Service\HR53.Service.csproj" />
   </ItemGroup>
 
