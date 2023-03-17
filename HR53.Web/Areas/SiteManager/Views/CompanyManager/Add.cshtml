@@ -73,7 +73,8 @@
                         </div>
                         <div>
                             <label asp-for="User.Email" id="defaultFormcontrolInput" class="form-label">Email: </label>
-                            <input asp-for="User.Email" type="email" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <input readonly asp-for="User.Email" type="email" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="User.Email" class="text-danger"></span>
 
                         </div>
                         <div>

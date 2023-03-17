@@ -29,7 +29,7 @@ namespace HR53.Repository.Entities
             get
             {
                 if (Firstname == null || LastName == null) return null; // Firstname veya LastName null ise null döndürün
-                return Firstname.ToLower() + "." + LastName.ToLower() + "@bilgeadam.com";
+                return Firstname.ToLower() + "." + LastName.ToLower() + "@bilgeadamboost.com";
 
             }
             set { _companyEmail = value; }

@@ -60,13 +60,23 @@ namespace HR53.Web.Areas.SiteManager.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Add(CompanyManagerAddViewModel request)
         {
-
+            
             var role = await _roleManager.FindByNameAsync("CompanyManager");
             var roleName = role.Name;
-            var password =await _passwordService.GeneratePasswordAsync(2);
-            request.Password = password+".";
+            var password = await _passwordService.GeneratePasswordAsync(2);
+            request.Password = password + ".";
 
             var signInLink = "https://localhost:7084/home/signin";
+
+            //string email="";
+            //if (!string.IsNullOrEmpty(request.User.MiddleName))
+            //{
+            //    email = $"{request.User.Firstname.ToLower()}.{request.User.MiddleName.ToLower()}.{request.User.LastName.ToLower()}@bilgeadamboost.com";
+            //}
+            //else
+            //{
+            //    email = $"{request.User.Firstname.ToLower()}.{request.User.LastName.ToLower()}@bilgeadamboost.com";
+            //}
 
             var emloyee = await _userManager.CreateAsync(new()
             {
@@ -80,13 +90,16 @@ namespace HR53.Web.Areas.SiteManager.Controllers
                 EmploymentDate = request.User.EmploymentDate,
                 Profession = request.User.Profession,
                 Department = request.User.Department,
-                Email = request.User.Email,
                 Adress = request.User.Adress,
                 PhoneNumber = request.User.PhoneNumber,
                 CompanyIdString = request.User.CompanyIdString,
-                UserName = request.User.Firstname.ToUpper() + request.User.LastName.ToUpper()
-                
+                UserName = request.User.Firstname.ToUpper() + request.User.LastName.ToUpper(),
+                Email = request.User.CompanyEmail,
             }, request.Password);
+
+
+        
+            
 
             var createdEmployee = await _userManager.FindByEmailAsync(request.User.Email);
 
