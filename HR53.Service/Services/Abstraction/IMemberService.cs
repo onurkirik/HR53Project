@@ -10,5 +10,6 @@ namespace HR53.Service.Services.Abstraction
     {
         Task LogOutAsync();
         Task DeleteUserAsync(string id);
+        string ConvertUsername(string firstname, string? middleName, string lastname, string? secondSurname);
     }
 }

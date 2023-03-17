@@ -65,6 +65,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
             var roleName = role.Name;
             var password = await _passwordService.GeneratePasswordAsync(2);
             request.Password = password + ".";
+            var userName = _memberService.ConvertUsername(request.User.Firstname, request.User.MiddleName, request.User.LastName, request.User.SecondSurname);
 
             var signInLink = "https://localhost:7084/home/signin";
                        
@@ -83,15 +84,15 @@ namespace HR53.Web.Areas.SiteManager.Controllers
                 Adress = request.User.Adress,
                 PhoneNumber = request.User.PhoneNumber,
                 CompanyIdString = request.User.CompanyIdString,
-                UserName = request.User.Firstname.ToUpper() + request.User.LastName.ToUpper(),
-                Email = request.User.CompanyEmail,
+                UserName = userName,
+                Email = _emailService.ConvertToEmail(request.User.Firstname, request.User.MiddleName, request.User.LastName, request.User.SecondSurname)
             }, request.Password);
 
 
-        
-            
 
-            var createdEmployee = await _userManager.FindByEmailAsync(request.User.CompanyEmail);
+
+
+            var createdEmployee = await _userManager.FindByNameAsync(userName);
 
             if (request.PictureUrl != null && request.PictureUrl.Length > 0)
             {

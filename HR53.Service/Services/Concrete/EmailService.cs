@@ -3,6 +3,7 @@ using System.Net;
 using System.Net.Mail;
 using HR53.Core.OptionsModel;
 using HR53.Service.Services.Abstraction;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace HR53.Service.Services.Concrete
 {
@@ -38,6 +39,25 @@ namespace HR53.Service.Services.Concrete
             mailMessage.IsBodyHtml = true;
 
             await smtpClient.SendMailAsync(mailMessage);
+        }
+
+        public string ConvertToEmail(string firstName, string? middleName, string surname, string? secondSurname)
+        {
+            var email = $"{firstName}{middleName}.{surname}{secondSurname}@bilgeadamboost.com";
+           
+            email = email.ToLower();
+            email = email.Replace("ü", "u");
+            email = email.Replace("ı", "i");
+            email = email.Replace("ş", "s");
+            email = email.Replace("ç", "c");
+            email = email.Replace("ö", "o");
+
+            if (email.Contains(" "))
+            {
+                email = email.Replace(" ", "");
+            }
+
+            return email;
         }
 
     }

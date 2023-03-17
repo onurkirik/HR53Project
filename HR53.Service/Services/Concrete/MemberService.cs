@@ -26,9 +26,27 @@ namespace HR53.Service.Services.Concrete
             await _userManager.DeleteAsync(deleteToUser);
         }
 
-        async public Task LogOutAsync()
+        public async Task LogOutAsync()
         {
             await _signInManager.SignOutAsync();
+        }
+
+        public string ConvertUsername(string firstname, string? middleName, string lastname, string? secondSurname)
+        {
+            var userName = $"{firstname}{middleName}{lastname}{secondSurname}";
+            userName = userName.ToLower();
+            userName = userName.Replace("ü", "u");
+            userName = userName.Replace("ı", "i");
+            userName = userName.Replace("ş", "s");
+            userName = userName.Replace("ç", "c");
+            userName = userName.Replace("ö", "o");
+
+            if (userName.Contains(" "))
+            {
+                userName = userName.Replace(" ", "");
+            }
+
+            return userName;
         }
     }
 }
