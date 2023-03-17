@@ -96,7 +96,6 @@ namespace HR53.Repository.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("IdentityCardNo")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
@@ -132,7 +131,8 @@ namespace HR53.Repository.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Profession")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("SecondSurname")
                         .HasColumnType("nvarchar(max)");

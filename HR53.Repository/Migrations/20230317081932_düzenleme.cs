@@ -4,7 +4,7 @@
 
 namespace HR53.Repository.Migrations
 {
-    public partial class IdentityValidationAdded : Migration
+    public partial class düzenleme : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

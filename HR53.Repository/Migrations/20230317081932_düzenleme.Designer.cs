@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HR53.Repository.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230316121953_deneme23")]
-    partial class deneme23
+    [Migration("20230317081932_düzenleme")]
+    partial class düzenleme
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -98,7 +98,6 @@ namespace HR53.Repository.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("IdentityCardNo")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
@@ -134,7 +133,8 @@ namespace HR53.Repository.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Profession")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("SecondSurname")
                         .HasColumnType("nvarchar(max)");
