@@ -130,6 +130,15 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
             return RedirectToAction("Index", "Employee");
         }
 
+        public async Task<IActionResult> Delete(string employeeId)
+        {
+            var deleteEmployee = await _db.Employees.FindAsync(employeeId);
+            _db.Employees.Remove(deleteEmployee);
+            await _db.SaveChangesAsync();
+
+            return RedirectToAction("Index", "Employee");
+        }
+
     }
 
 }
