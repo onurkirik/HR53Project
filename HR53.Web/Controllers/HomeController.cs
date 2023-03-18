@@ -85,6 +85,9 @@ namespace HR53.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> SignIn(SignInViewModel request, string? returnUrl = null)
         {
+            //CompanyManager/Password/Reset
+            //CompanyManager/Home/Index
+
             returnUrl = returnUrl ?? Url.Action("Index", "Home");
 
             var hasUser = await _userManager.FindByEmailAsync(request.Email);
@@ -106,8 +109,16 @@ namespace HR53.Web.Controllers
             if (signInResult.Succeeded && isSiteManager)
                 return RedirectToAction("Index", "Home", new { area = "SiteManager" });
 
-            if (signInResult.Succeeded && isCompanyManager)
+            if (signInResult.Succeeded && isCompanyManager && hasUser.LoginCount == 0)
+            {
+                hasUser.LoginCount++;
+                await _userManager.UpdateAsync(hasUser);
+                return RedirectToAction("Reset", "Password", new { area = "CompanyManager" });
+            }
+
+            if(signInResult.Succeeded && isCompanyManager && hasUser.LoginCount != 0)
                 return RedirectToAction("Index", "Home", new { area = "CompanyManager" });
+
 
             if (signInResult.IsLockedOut)
             {

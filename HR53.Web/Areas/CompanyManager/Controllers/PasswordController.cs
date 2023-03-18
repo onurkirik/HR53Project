@@ -1,6 +1,7 @@
 ﻿using HR53.Core.ViewModels;
 using HR53.Repository.Entities;
 using HR53.Service.Services.Abstraction;
+using HR53.Service.Services.Concrete;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -16,11 +17,13 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly IPasswordService _passwordService;
-        public PasswordController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IPasswordService passwordService)
+        private readonly IMemberService _memberService;
+        public PasswordController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IPasswordService passwordService, IMemberService memberService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _passwordService = passwordService;
+            _memberService = memberService;
         }
 
         public IActionResult Reset()
@@ -51,8 +54,9 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
             await _passwordService.ChangePasswordAsync(request, currentUser);
 
             TempData["SuccessMessage"] = "Şifreniz başarıyla değiştirilmiştir.";
+            await _memberService.LogOutAsync();
 
-            return View();
+            return RedirectToAction("SignIn", "Home", new {area=""});
         }
     }
 }
