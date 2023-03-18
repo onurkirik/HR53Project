@@ -1,4 +1,4 @@
-﻿@model AddEmployeeViewModel
+﻿@model UpdateEmployeeViewModel
 @{
     ViewData["Title"] = "Add";
 }
@@ -10,8 +10,9 @@
     <div class="row">
         <div class="col-md-12">
             <div class="card mb-4">
-                <form asp-area="CompanyManager" asp-controller="Employee" asp-action="Add" method="post" enctype="multipart/form-data">
+                <form asp-area="CompanyManager" asp-controller="Employee" asp-action="Update" method="post" enctype="multipart/form-data">
                     <div class="card-body">
+                        <input type="hidden" asp-for="EmployeeId" />
                         <div>
                             <label asp-for="Firstname" id="defaultFormcontrolInput" class="form-label">First Name:</label>
                             <input asp-for="Firstname" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
@@ -72,15 +73,15 @@
 
                         </div>
                         <div>
-                            <label asp-for="City" id="defaultFormcontrolInput" class="form-label">City: </label>
-                            <input asp-for="City" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <label asp-for="City" id="defaultFormcontrolInput" class="form-label">Email: </label>
+                            <input asp-for="City" type="email" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
 
                         </div>
-                        <div class="mb-3">
+                        @*<div class="mb-3">
                             <label asp-for="Picture" class="form-label">Default file input example</label>
                             <input class="form-control" type="file" asp-for="Picture" id="formFile">
                             <span asp-validation-for="Picture" class="text-danger"></span>
-                        </div>
+                        </div>*@
 
                         <div class="form-group float-end">
                             <button type="submit" class="btn btn-primary btn-block">Create</button>

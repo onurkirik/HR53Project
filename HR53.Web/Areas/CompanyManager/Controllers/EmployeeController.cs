@@ -82,7 +82,53 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
 
             return View();
         }
+        public async Task<IActionResult> Update(string employeeId)
+        {
+            var employee = await _db.Employees.FirstOrDefaultAsync(c => c.Id == employeeId);
 
+            var vm = new UpdateEmployeeViewModel()
+            {
+                EmployeeId= employee.Id,
+                Firstname = employee.Firstname,
+                MiddleName = employee.MiddleName,
+                LastName = employee.LastName,
+                SecondSurname = employee.SecondSurname,
+                Birthdate = employee.Birthdate,
+                Birthplace = employee.Birthplace,
+                IdentityCardNo = employee.IdentityCardNo,
+                Adress = employee.Adress,
+                Profession = employee.Profession,
+                Department = employee.Department,
+                City = employee.City,
+                CompanyId = employee.CompanyId,
+            };
+
+            return View(vm);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(UpdateEmployeeViewModel request)
+        {
+            var employeeToUpdate = await _db.Employees.FirstOrDefaultAsync(c => c.Id == request.EmployeeId);
+
+            employeeToUpdate.Firstname = request.Firstname;
+            employeeToUpdate.MiddleName = request.MiddleName;
+            employeeToUpdate.LastName = request.LastName;
+            employeeToUpdate.SecondSurname = request.SecondSurname;
+            employeeToUpdate.Birthdate = request.Birthdate;
+            employeeToUpdate.IdentityCardNo = request.IdentityCardNo;
+            employeeToUpdate.Adress = request.Adress;
+            employeeToUpdate.Profession = request.Profession;
+            employeeToUpdate.Department = request.Department;
+            employeeToUpdate.Adress = request.Adress;
+            employeeToUpdate.City = request.City;
+            employeeToUpdate.CompanyId = request.CompanyId;
+
+            _db.Employees.Update(employeeToUpdate);
+            await _db.SaveChangesAsync();
+
+            return RedirectToAction("Index", "Employee");
+        }
 
     }
 

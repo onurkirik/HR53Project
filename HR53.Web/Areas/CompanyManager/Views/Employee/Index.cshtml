@@ -35,10 +35,10 @@
                             <th>@employee.Department</th>
                             <th>@employee.Adress</th>
                             <th>
-                                <a class="btn btn-primary btn-sm" data-id="@employee.Id" asp-area="SiteManager" asp-controller="CompanyManager" asp-action="Update" asp-route-employeeId="@employee.Id">
+                                <a class="btn btn-primary btn-sm" data-id="@employee.Id" asp-area="CompanyManager" asp-controller="Employee" asp-action="Update" asp-route-employeeId="@employee.Id">
                                     <i class='bx bxs-message-alt-edit'></i>
                                 </a>
-                                <a class="btn btn-danger btn-sm" data-id="@employee.Id" asp-area="SiteManager" asp-controller="CompanyManager" asp-action="Delete" asp-route-empoyeeId="@employee.Id">
+                                <a class="btn btn-danger btn-sm" data-id="@employee.Id" asp-area="CompanyManager" asp-controller="Employee" asp-action="Delete" asp-route-empoyeeId="@employee.Id">
                                     <i class='bx bx-trash'></i>
                                 </a>
                             </th>
