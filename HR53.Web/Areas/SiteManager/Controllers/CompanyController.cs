@@ -109,13 +109,9 @@ namespace HR53.Web.Areas.SiteManager.Controllers
             {
                 var wwrootFolder = _fileProvider.GetDirectoryContents("wwwroot");
                 var randomFileName = $"{Guid.NewGuid().ToString()}{Path.GetExtension(vm.Logo.FileName)}";
-
                 var newLogoPath = Path.Combine(wwrootFolder.First(x => x.Name == "images").PhysicalPath, randomFileName);
-
                 using var stream = new FileStream(newLogoPath, FileMode.Create);
-
                 await vm.Logo.CopyToAsync(stream);
-
                 newCompany.Logo = randomFileName;
             }
 
@@ -124,6 +120,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
 
             return RedirectToAction("Index", "Company");
         }
+
 
 
     }

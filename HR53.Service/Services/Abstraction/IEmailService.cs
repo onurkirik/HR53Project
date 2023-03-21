@@ -3,6 +3,6 @@
     public interface IEmailService
     {
         Task SendRegisterEmail(string signInLink, string ToEmail, string password);
-       string ConvertToEmail(string firstName, string? middleName, string surname, string? secondSurname);
+        string ConvertToEmail(string firstName, string? middleName, string surname, string? secondSurname);
     }
 }

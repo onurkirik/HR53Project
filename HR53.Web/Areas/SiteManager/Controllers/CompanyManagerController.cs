@@ -67,7 +67,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
             request.Password = password + ".";
             var userName = _memberService.ConvertUsername(request.User.Firstname, request.User.MiddleName, request.User.LastName, request.User.SecondSurname);
 
-            var signInLink = "https://localhost:7084/home/signin";
+            var signInLink = "https://hr53.azurewebsites.net/home/signin";
                        
             var emloyee = await _userManager.CreateAsync(new()
             {
