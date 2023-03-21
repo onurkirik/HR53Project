@@ -119,7 +119,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
         {
             var manager = await _userManager.FindByIdAsync(managerId);
 
-            var companies = await _db.Companies.Where(c => c.UserId == null).ToListAsync();
+            var companies = await _db.Companies.Where(c => c.Users == null ).ToListAsync();
 
             var vm = new CompanyManagerUpdateViewModel()
             {

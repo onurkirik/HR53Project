@@ -33,8 +33,7 @@ namespace HR53.Repository.Entities
 
         public bool IsActive { get; set; }
 
-        public string? UserId { get; set; }
-        public AppUser User { get; set; }
+        public List<AppUser> Users { get; set; }
 
         public List<Employee> Employees { get; set; }
 

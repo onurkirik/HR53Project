@@ -24,5 +24,9 @@ namespace HR53.Repository.Entities
 
         public string? CompanyId { get; set; }
         public Company Company { get; set; }
+
+
+        public List<EmployeeAdvance> EmployeeAdvances { get; set; }
+        public List<EmployeeExpenditure> EmployeeExpenditures { get; set; }
     }
 }
