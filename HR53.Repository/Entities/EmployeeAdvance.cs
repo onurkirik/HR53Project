@@ -12,7 +12,7 @@ namespace HR53.Repository.Entities
         public int Id { get; set; }
         public string ? Description { get; set; }
         public TypesForEmployeeAdvanceandExpenditure type { get; set; }
-        public DateTime RequestDate { get; set; }
+        public DateTime RequestDate { get; set; } = DateTime.Now;
         public ConfirmStatusForEmployee ConfirmStatus { get; set; }
         public DateTime ReplyDate { get; set; }
         public decimal Amount { get; set; }
