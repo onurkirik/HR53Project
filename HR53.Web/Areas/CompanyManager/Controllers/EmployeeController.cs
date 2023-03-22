@@ -1,6 +1,7 @@
-﻿using HR53.Core.ViewModels.CompanyManagerArea;
-using HR53.Repository.Data;
+﻿using HR53.Repository.Data;
 using HR53.Repository.Entities;
+using HR53.Service.Services.Abstraction;
+using HR53.Web.Areas.SiteManager.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -16,21 +17,29 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
     {
         private readonly ApplicationDbContext _db;
         private readonly UserManager<AppUser> _userManager;
+        private readonly RoleManager<AppRole> _roleManager;
+        private readonly IMemberService _memberService;
+        private readonly IPasswordService _passwordService;
+        private readonly IEmailService _emailService;
         private readonly IFileProvider _fileProvider;
 
-        public EmployeeController(ApplicationDbContext db, UserManager<AppUser> userManager, IFileProvider fileProvider)
+        public EmployeeController(ApplicationDbContext db, UserManager<AppUser> userManager, IFileProvider fileProvider, RoleManager<AppRole> roleManager, IPasswordService passwordService, IMemberService memberService, IEmailService emailService)
         {
             _db = db;
             _userManager = userManager;
             _fileProvider = fileProvider;
+            _roleManager = roleManager;
+            _passwordService = passwordService;
+            _memberService = memberService;
+            _emailService = emailService;
         }
         public async Task<IActionResult> Index()
         {
             var companyManager = await _userManager.FindByNameAsync(User.Identity.Name);
-            
-            var employees = await _db.Employees.Where(e => e.CompanyId == companyManager.CompanyIdString).ToListAsync();
 
-            return View(employees);
+            //var employees = await _db..Where(e => e.CompanyId == companyManager.CompanyIdString).ToListAsync();
+
+            return View();
         }
 
         public IActionResult Add()
@@ -39,101 +48,79 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(AddEmployeeViewModel request)
+        public async Task<IActionResult> Add(EmployeeAddViewModel request)
         {
-            var companyManager = await _userManager.FindByNameAsync(User.Identity.Name);
-            var companyId = companyManager.CompanyIdString;
-            request.CompanyId = companyId;
+            var role = await _roleManager.FindByNameAsync("Employee");
+            var roleName = role.Name;
+            var password = await _passwordService.GeneratePasswordAsync(2);
+            request.Password = password + ".";
+            var userName = _memberService.ConvertUsername(request.User.Firstname, request.User.MiddleName, request.User.LastName, request.User.SecondSurname);
 
-            var employee = new Employee()
+            var signInLink = "https://localhost:7084/home/signin";
+
+            var emloyee = await _userManager.CreateAsync(new()
             {
-                Id = Guid.NewGuid().ToString(),
-                Firstname = request.Firstname,
-                MiddleName = request.MiddleName,
-                LastName = request.LastName,
-                SecondSurname = request.SecondSurname,
-                Adress = request.Adress,
-                Birthdate = request.Birthdate,
-                Birthplace = request.Birthplace,
-                City = request.City,
-                IdentityCardNo = request.IdentityCardNo,
-                Department = request.Department,
-                Profession = request.Profession,
-                CompanyId = request.CompanyId,
-            };
+                Firstname = request.User.Firstname,
+                MiddleName = request.User.MiddleName,
+                LastName = request.User.LastName,
+                SecondSurname = request.User.SecondSurname,
+                Birthdate = request.User.Birthdate,
+                Birthplace = request.User.Birthplace,
+                IdentityCardNo = request.User.IdentityCardNo,
+                EmploymentDate = request.User.EmploymentDate,
+                Profession = request.User.Profession,
+                Department = request.User.Department,
+                Adress = request.User.Adress,
+                PhoneNumber = request.User.PhoneNumber,
+                CompanyIdString = request.User.CompanyIdString,
+                UserName = userName,
+                Email = _emailService.ConvertToEmail(request.User.Firstname, request.User.MiddleName, request.User.LastName, request.User.SecondSurname)
+            }, request.Password);
 
 
-            if (request.Picture != null && request.Picture.Length > 0)
+
+
+
+            var createdEmployee = await _userManager.FindByNameAsync(userName);
+
+            if (request.PictureUrl != null && request.PictureUrl.Length > 0)
             {
                 var wwrootFolder = _fileProvider.GetDirectoryContents("wwwroot");
-                var randomFileName = $"{Guid.NewGuid().ToString()}{Path.GetExtension(request.Picture.FileName)}";
+                var randomFileName = $"{Guid.NewGuid().ToString()}{Path.GetExtension(request.PictureUrl.FileName)}";
 
-                var newPicturePath = Path.Combine(wwrootFolder.First(x => x.Name == "images").PhysicalPath, randomFileName);
+                var newLogoPath = Path.Combine(wwrootFolder.First(x => x.Name == "images").PhysicalPath, randomFileName);
 
-                using var stream = new FileStream(newPicturePath, FileMode.Create);
+                using var stream = new FileStream(newLogoPath, FileMode.Create);
 
-                await request.Picture.CopyToAsync(stream);
-
-                employee.Picture = randomFileName;
+                await request.PictureUrl.CopyToAsync(stream);
+                createdEmployee.Picture = randomFileName;
+                await _userManager.UpdateAsync(createdEmployee);
             }
 
-            await _db.Employees.AddAsync(employee);
-            await _db.SaveChangesAsync();
+            await _userManager.AddToRoleAsync(createdEmployee, roleName);
+
+            await _emailService.SendRegisterEmail(signInLink, createdEmployee.Email, password);
+
+            return RedirectToAction("Index", "Home", new {area = "CompanyManager"});
+        }
+
+        public async Task<IActionResult> Update(string employeeId)
+        {
+
 
             return View();
         }
-        public async Task<IActionResult> Update(string employeeId)
-        {
-            var employee = await _db.Employees.FirstOrDefaultAsync(c => c.Id == employeeId);
-
-            var vm = new UpdateEmployeeViewModel()
-            {
-                EmployeeId= employee.Id,
-                Firstname = employee.Firstname,
-                MiddleName = employee.MiddleName,
-                LastName = employee.LastName,
-                SecondSurname = employee.SecondSurname,
-                Birthdate = employee.Birthdate,
-                Birthplace = employee.Birthplace,
-                IdentityCardNo = employee.IdentityCardNo,
-                Adress = employee.Adress,
-                Profession = employee.Profession,
-                Department = employee.Department,
-                City = employee.City,
-                CompanyId = employee.CompanyId,
-            };
-
-            return View(vm);
-        }
 
         [HttpPost]
-        public async Task<IActionResult> Update(UpdateEmployeeViewModel request)
+        public async Task<IActionResult> Update()
         {
-            var employeeToUpdate = await _db.Employees.FirstOrDefaultAsync(c => c.Id == request.EmployeeId);
-
-            employeeToUpdate.Firstname = request.Firstname;
-            employeeToUpdate.MiddleName = request.MiddleName;
-            employeeToUpdate.LastName = request.LastName;
-            employeeToUpdate.SecondSurname = request.SecondSurname;
-            employeeToUpdate.Birthdate = request.Birthdate;
-            employeeToUpdate.IdentityCardNo = request.IdentityCardNo;
-            employeeToUpdate.Adress = request.Adress;
-            employeeToUpdate.Profession = request.Profession;
-            employeeToUpdate.Department = request.Department;
-            employeeToUpdate.Adress = request.Adress;
-            employeeToUpdate.City = request.City;
-            employeeToUpdate.CompanyId = request.CompanyId;
-
-            _db.Employees.Update(employeeToUpdate);
-            await _db.SaveChangesAsync();
-
+            
             return RedirectToAction("Index", "Employee");
         }
 
         public async Task<IActionResult> Delete(string employeeId)
         {
-            var deleteEmployee = await _db.Employees.FindAsync(employeeId);
-            _db.Employees.Remove(deleteEmployee);
+
             await _db.SaveChangesAsync();
 
             return RedirectToAction("Index", "Employee");

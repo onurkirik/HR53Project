@@ -12,7 +12,6 @@ namespace HR53.Repository.Data
         }
 
         public DbSet<Company> Companies { get; set; }
-        public DbSet<Employee> Employees { get; set; }
         public DbSet<EmployeeAdvance> EmployeeAdvances { get; set; }
         public DbSet<EmployeeExpenditure> EmployeeExpenditures { get; set; }
     }

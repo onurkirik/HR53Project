@@ -26,7 +26,9 @@ namespace HR53.Repository.Entities
         public int LoginCount { get; set; } = 0;
 
         public string? CompanyIdString { get; set; }
-        public Company Company { get; set; }
+        public Company? Company { get; set; }
 
+        public List<EmployeeAdvance>? EmployeeAdvances { get; set; }
+        public List<EmployeeExpenditure>? EmployeeExpenditures { get; set; }
     }
 }

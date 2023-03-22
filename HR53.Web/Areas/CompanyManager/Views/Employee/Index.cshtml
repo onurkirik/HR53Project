@@ -1,5 +1,4 @@
-﻿@model List<Employee>
-<div class="container-xxl flex-grow-1 container-p-y">
+﻿<div class="container-xxl flex-grow-1 container-p-y">
     <h4 class="fw-bold py-3 mb-4">
         <span class="text-muted fw-light">Employee Management</span> 
     </h4>
@@ -22,7 +21,7 @@
                     </tr>
                 </thead>
                 <tbody class="table-border-bottom-0">
-                    @foreach (var employee in Model)
+                    @*@foreach (var employee in Model)
                     {
                         <tr name="@employee.Id">
                             <th>
@@ -43,7 +42,7 @@
                                 </a>
                             </th>
                         </tr>
-                    }
+                    }*@
                 </tbody>
             </table>
         </div>

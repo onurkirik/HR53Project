@@ -103,6 +103,7 @@ namespace HR53.Web.Controllers
 
             var isSiteManager = await _userManager.IsInRoleAsync(hasUser, "SiteManager");
             var isCompanyManager = await _userManager.IsInRoleAsync(hasUser, "CompanyManager");
+            var isEmployee = await _userManager.IsInRoleAsync(hasUser, "Employee");
 
             var signInResult = await _signInManager.PasswordSignInAsync(hasUser, request.Password, request.RememberMe, true);
 
@@ -116,8 +117,18 @@ namespace HR53.Web.Controllers
                 return RedirectToAction("Reset", "Password", new { area = "CompanyManager" });
             }
 
-            if(signInResult.Succeeded && isCompanyManager && hasUser.LoginCount != 0)
+            if (signInResult.Succeeded && isEmployee && hasUser.LoginCount == 0)
+            {
+                hasUser.LoginCount++;
+                await _userManager.UpdateAsync(hasUser);
+                return RedirectToAction("Reset", "Password", new { area = "Employees" });
+            }
+
+            if (signInResult.Succeeded && isCompanyManager && hasUser.LoginCount != 0)
                 return RedirectToAction("Index", "Home", new { area = "CompanyManager" });
+
+            if (signInResult.Succeeded && isEmployee && hasUser.LoginCount != 0)
+                return RedirectToAction("Index", "Home", new { area = "Employees" });
 
 
             if (signInResult.IsLockedOut)

@@ -53,6 +53,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
             return View(userUpdateVm);
         }
 
+        [Authorize(Roles ="SiteManager")]
         [HttpPost]
         public async Task<IActionResult> Details(UserUpdateViewModel vm)
         {

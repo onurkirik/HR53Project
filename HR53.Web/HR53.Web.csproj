@@ -28,6 +28,8 @@
     <Folder Include="Areas\CompanyManager\Models\" />
     <Folder Include="Areas\CompanyManager\Data\" />
     <Folder Include="Areas\CompanyManager\Models\" />
+    <Folder Include="Areas\Employees\Data\" />
+    <Folder Include="Areas\Employees\Models\" />
     <Folder Include="Areas\SiteManager\Data\" />
     <Folder Include="Areas\SiteManager\Models\" />
   </ItemGroup>

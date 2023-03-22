@@ -12,77 +12,77 @@
             <div class="card mb-4">
                 <form asp-area="CompanyManager" asp-controller="Employee" asp-action="Update" method="post">
                     <div class="card-body">
-                        <input type="hidden" asp-for="EmployeeId"/>
+                        <input type="hidden" asp-for="UserId"/>
                         <input type="hidden" asp-for="CompanyId"/>
                         <div>
-                            <label asp-for="Firstname" id="defaultFormcontrolInput" class="form-label">First Name:</label>
-                            <input asp-for="Firstname" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
-                            <span asp-validation-for="Firstname" class="text-danger"></span>
+                            <label asp-for="User.Firstname" id="defaultFormcontrolInput" class="form-label">First Name:</label>
+                            <input asp-for="User.Firstname" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="User.Firstname" class="text-danger"></span>
                         </div>
                         <div>
-                            <label asp-for="MiddleName" id="defaultFormcontrolInput" class="form-label">Middle Name: </label>
-                            <input asp-for="MiddleName" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
-                            <span asp-validation-for="MiddleName" class="text-danger"></span>
+                            <label asp-for="User.MiddleName" id="defaultFormcontrolInput" class="form-label">Middle Name: </label>
+                            <input asp-for="User.MiddleName" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="User.MiddleName" class="text-danger"></span>
 
                         </div>
                         <div>
-                            <label asp-for="LastName" id="defaultFormcontrolInput" class="form-label">Surname: </label>
-                            <input asp-for="LastName" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
-                            <span asp-validation-for="LastName" class="text-danger"></span>
+                            <label asp-for="User.LastName" id="defaultFormcontrolInput" class="form-label">Surname: </label>
+                            <input asp-for="User.LastName" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="User.LastName" class="text-danger"></span>
 
                         </div>
                         <div>
-                            <label asp-for="SecondSurname" id="defaultFormcontrolInput" class="form-label">Second Surname: </label>
-                            <input asp-for="SecondSurname" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
-                            <span asp-validation-for="SecondSurname" class="text-danger"></span>
+                            <label asp-for="User.SecondSurname" id="defaultFormcontrolInput" class="form-label">Second Surname: </label>
+                            <input asp-for="User.SecondSurname" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="User.SecondSurname" class="text-danger"></span>
 
                         </div>
                         <div>
-                            <label asp-for="Birthdate" id="defaultFormcontrolInput" class="form-label">Birth Date: </label>
-                            <input asp-for="Birthdate" type="date" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
-                            <span asp-validation-for="Birthdate" class="text-danger"></span>
+                            <label asp-for="User.Birthdate" id="defaultFormcontrolInput" class="form-label">Birth Date: </label>
+                            <input asp-for="User.Birthdate" type="date" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="User.Birthdate" class="text-danger"></span>
 
                         </div>
                         <div>
-                            <label asp-for="Birthplace" id="defaultFormcontrolInput" class="form-label">Birth Place: </label>
-                            <input asp-for="Birthplace" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
-                            <span asp-validation-for="Birthplace" class="text-danger"></span>
+                            <label asp-for="User.Birthplace" id="defaultFormcontrolInput" class="form-label">Birth Place: </label>
+                            <input asp-for="User.Birthplace" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="User.Birthplace" class="text-danger"></span>
 
                         </div>
                         <div>
-                            <label asp-for="IdentityCardNo" id="defaultFormcontrolInput" class="form-label">Identity Number: </label>
-                            <input asp-for="IdentityCardNo" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
-                            <span asp-validation-for="IdentityCardNo" class="text-danger"></span>
+                            <label asp-for="User.IdentityCardNo" id="defaultFormcontrolInput" class="form-label">Identity Number: </label>
+                            <input asp-for="User.IdentityCardNo" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="User.IdentityCardNo" class="text-danger"></span>
 
                         </div>
                         <div>
-                            <label asp-for="Profession" id="defaultFormcontrolInput" class="form-label">Employment Date: </label>
-                            <input asp-for="Profession" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
-                            <span asp-validation-for="Profession" class="text-danger"></span>
+                            <label asp-for="User.Profession" id="defaultFormcontrolInput" class="form-label">Employment Date: </label>
+                            <input asp-for="User.Profession" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="User.Profession" class="text-danger"></span>
 
                         </div>
                         <div>
-                            <label asp-for="Department" id="defaultFormcontrolInput" class="form-label">Profession: </label>
-                            <input asp-for="Department" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
-                            <span asp-validation-for="Department" class="text-danger"></span>
+                            <label asp-for="User.Department" id="defaultFormcontrolInput" class="form-label">Profession: </label>
+                            <input asp-for="User.Department" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="User.Department" class="text-danger"></span>
 
                         </div>
                         <div>
-                            <label asp-for="Adress" id="defaultFormcontrolInput" class="form-label">Department: </label>
-                            <input asp-for="Adress" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
-                            <span asp-validation-for="Adress" class="text-danger"></span>
+                            <label asp-for="User.Adress" id="defaultFormcontrolInput" class="form-label">Department: </label>
+                            <input asp-for="User.Adress" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="User.Adress" class="text-danger"></span>
 
                         </div>
                         <div>
-                            <label asp-for="City" id="defaultFormcontrolInput" class="form-label">City: </label>
-                            <input asp-for="City" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <label asp-for="User.City" id="defaultFormcontrolInput" class="form-label">City: </label>
+                            <input asp-for="User.City" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
 
                         </div>
-                        @*<div class="mb-3">
-                            <label asp-for="Picture" class="form-label">Default file input example</label>
-                            <input class="form-control" type="file" asp-for="Picture" id="formFile">
-                            <span asp-validation-for="Picture" class="text-danger"></span>
-                        </div>*@
+                        <div class="mb-3">
+                            <label asp-for="PictureUrl" class="form-label">Default file input example</label>
+                            <input class="form-control" type="file" asp-for="PictureUrl" id="formFile">
+                            <span asp-validation-for="User.Picture" class="text-danger"></span>
+                        </div>
 
                         <div class="form-group float-end">
                             <button type="submit" class="btn btn-primary btn-block">Create</button>

@@ -17,7 +17,8 @@ namespace HR53.Repository.Entities
         public DateTime ReplyDate { get; set; }
         public decimal Amount { get; set; }
         public string? Currency { get; set; }
-        public string EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+
+        public string? UserId { get; set; }
+        public AppUser? User { get; set; }
     }
 }

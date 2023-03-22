@@ -18,8 +18,9 @@ namespace HR53.Repository.Entities
         public decimal Amount { get; set; }
         public string? Currency { get; set; }
         public string? FileName { get; set; }
-        public string EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+        
+        public string? UserId { get; set; }
+        public AppUser? User { get; set; }
 
     }
 }
