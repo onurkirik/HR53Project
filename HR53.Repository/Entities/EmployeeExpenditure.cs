@@ -1,5 +1,4 @@
-﻿using HR53.Repository.Enum;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,11 +10,11 @@ namespace HR53.Repository.Entities
     {
         public int Id { get; set; }
         public string? Description { get; set; }
-        public TypesForEmployeeAdvanceandExpenditure type { get; set; }
+        public string Type { get; set; }
         public DateTime RequestDate { get; set; }
-        public ConfirmStatusForEmployee ConfirmStatus { get; set; }
+        public string ConfirmStatus { get; set; }
         public DateTime ReplyDate { get; set; }
-        public decimal Amount { get; set; }
+        public int Amount { get; set; }
         public string? Currency { get; set; }
         public string? FileName { get; set; }
         

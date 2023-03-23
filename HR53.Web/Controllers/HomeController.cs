@@ -95,7 +95,7 @@ namespace HR53.Web.Controllers
 
             if (hasUser == null)
             {
-                ModelState.AddModelError(string.Empty, "Email veya şifre yanlış");
+                ModelState.AddModelError(string.Empty, "Email or password wrong");
                 return View();
             }
 
@@ -133,14 +133,14 @@ namespace HR53.Web.Controllers
 
             if (signInResult.IsLockedOut)
             {
-                ModelState.AddModelErrorList(new List<string>() { "2 dakika boyunca giriş yapamazsınız." });
+                ModelState.AddModelErrorList(new List<string>() { "You can not login for 2 munites" });
                 return View();
             }
 
             ModelState.AddModelErrorList(new List<string>()
             {
-                $"Email veya şifreniz yanlış",
-                $"Başarısız giriş sayısı = {await _userManager.GetAccessFailedCountAsync(hasUser)}" });
+                $"Email or password wrong",
+                $"Failed login attempt = {await _userManager.GetAccessFailedCountAsync(hasUser)}" });
 
 
             return View();
@@ -159,7 +159,7 @@ namespace HR53.Web.Controllers
 
         public async Task LogOut()
         {
-            await _memberService.LogOutAsync();
+            await _signInManager.SignOutAsync();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

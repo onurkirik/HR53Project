@@ -7,14 +7,14 @@ namespace HR53.Web.Localizations
         public override IdentityError DuplicateUserName(string userName)
         {
             //return base.DuplicateUserName(userName);
-            return new() { Code = "DublicateUserName", Description = $"{userName} daha önce başka bir kullanıcı tarafından alınmıştır." };
+            return new() { Code = "DublicateUserName", Description = $"{userName} username used before by another user." };
 
         }
 
         public override IdentityError DuplicateEmail(string email)
         {
             //return base.DuplicateEmail(email);
-            return new() { Code = "DuplicateEmail", Description = "Bu mail adresi daha önce kullanılmıştır." };
+            return new() { Code = "DuplicateEmail", Description = "This mail adress used before." };
         }
     }
 }

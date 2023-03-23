@@ -1,5 +1,9 @@
 ﻿@using System.Security.Claims;
+@using Microsoft.AspNetCore.Identity;
+@inject UserManager<AppUser> _userManager
 <html lang="tr" class="light-style layout-menu-fixed " dir="ltr" data-theme="theme-default" data-template="vertical-menhref=" u-template-free">
+
+
 
 <head>
     <meta charset="utf-8" />
@@ -87,10 +91,16 @@
                         </a>
                     </li>
                     <li class="menu-item">
-                    <a asp-area="CompanyManager" asp-controller="Password" asp-action="Reset" class="menu-link">
+                        <a asp-area="CompanyManager" asp-controller="Advance" asp-action="AdvanceList" class="menu-link">
                             <i class='menu-icon bx bx-paper-plane'></i>
-                    <div data-i18n="Analytics">Password Settings</div>
-                    </a>
+                            <div data-i18n="Analytics">Advance Requests</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a asp-area="CompanyManager" asp-controller="Password" asp-action="Reset" class="menu-link">
+                            <i class='menu-icon bx bx-paper-plane'></i>
+                            <div data-i18n="Analytics">Password Settings</div>
+                        </a>
                     </li>
                 </ul>
             </aside>
@@ -107,21 +117,24 @@
                     <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
                         <ul class="navbar-nav flex-row align-items-center ms-auto">
                             <!-- User -->
-                            <li class="nav-item navbar-dropdown dropdown-user dropdown">
-                                <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
-                                    <div class="avatar avatar-online">
-                                        <img src="~/images/bg.jpg" class="w-px-40 h-auto rounded-circle">
-                                    </div>
-                                </a>
-                                @if (User.Identity!.IsAuthenticated)
-                                {
+                            @if (User.Identity!.IsAuthenticated)
+                            {
+
+                                var user = await _userManager.FindByNameAsync(User.Identity.Name);
+
+                                <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                                    <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                                        <div class="avatar avatar-online">
+                                            <img src="~/images/@user.Picture" class="w-px-40 h-auto rounded-circle">
+                                        </div>
+                                    </a>
                                     <ul class="dropdown-menu dropdown-menu-end">
                                         <li>
                                             <a class="dropdown-item" href="#">
                                                 <div class="d-flex">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar avatar-online">
-                                                            <img src="~/images/bg.jpg" alt="" class="w-px-40 h-auto rounded-circle">
+                                                            <img src="~/images/@user.Picture" alt="" class="w-px-40 h-auto rounded-circle">
                                                         </div>
                                                     </div>
                                                     <div class="flex-grow-1">
@@ -140,17 +153,17 @@
                                         @if (User.HasClaim(x => x.Type == ClaimTypes.Role && x.Value == "CompanyManager"))
                                         {
                                             <li>
-                                                <a class="dropdown-item" asp-route-returnUrl="/Home/Index" asp-area="" asp-controller="Home" asp-action="LogOut">
+                                                <a class="dropdown-item" asp-route-returnUrl="/Home/SignIn" asp-area="" asp-controller="Home" asp-action="LogOut">
                                                     <i class="bx bx-power-off me-2"></i>
-                                                    <span class="align-middle">Çıkış Yap</span>
+                                                    <span class="align-middle">Sign Out</span>
                                                 </a>
                                             </li>
 
                                         }
                                     </ul>
-                                }
 
-                            </li>
+                                </li>
+                            }
                             <!--/ User -->
                         </ul>
                     </div>
@@ -189,7 +202,8 @@
     <script src="~/sneat/assets/js/dashboards-analytics.js"></script>
     <script src="~/SiteManager/lib/summernote/summernote.min.js"></script>
     <script src="~/SiteManager/lib/summernote/summernote-lite.min.js"></script>
-    @await RenderSectionAsync("Scripts", false);
+    @await RenderSectionAsync("Scripts", false)
+    ;
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>

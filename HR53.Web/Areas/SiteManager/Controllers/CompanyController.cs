@@ -6,6 +6,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using System.Data;
 using HR53.Repository.Data;
+using FluentValidation;
+using FluentValidation.Results;
+using FluentValidation.AspNetCore;
 
 namespace HR53.Web.Areas.SiteManager.Controllers
 {
@@ -55,6 +58,8 @@ namespace HR53.Web.Areas.SiteManager.Controllers
         [HttpPost]
         public async Task<IActionResult> Update(CompanyUpdateViewModel request)
         {
+
+
             var companyToUpdate = await _db.Companies.FirstOrDefaultAsync(c => c.Id == request.CompanyId);
 
             companyToUpdate.CompanyName= request.CompanyName;
@@ -85,8 +90,6 @@ namespace HR53.Web.Areas.SiteManager.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(CompanyAddViewModel vm)
         {
-
-
             var newCompany = new Company()
             {
                 Id = Guid.NewGuid().ToString(),

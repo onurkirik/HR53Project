@@ -35,11 +35,11 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var companyManager = await _userManager.FindByNameAsync(User.Identity.Name);
+            var currentUser = await _userManager.GetUserAsync(User);
 
-            //var employees = await _db..Where(e => e.CompanyId == companyManager.CompanyIdString).ToListAsync();
+            var employees = await _db.Users.Where(e => e.ManagerId == currentUser.Id).ToListAsync();
 
-            return View();
+            return View(employees);
         }
 
         public IActionResult Add()
@@ -50,13 +50,15 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
         [HttpPost]
         public async Task<IActionResult> Add(EmployeeAddViewModel request)
         {
+            var currentUser = await _userManager.GetUserAsync(User);
+            var companyId = currentUser.CompanyIdString;
             var role = await _roleManager.FindByNameAsync("Employee");
             var roleName = role.Name;
             var password = await _passwordService.GeneratePasswordAsync(2);
             request.Password = password + ".";
             var userName = _memberService.ConvertUsername(request.User.Firstname, request.User.MiddleName, request.User.LastName, request.User.SecondSurname);
 
-            var signInLink = "https://localhost:7084/home/signin";
+            var signInLink = "https://hr53.azurewebsites.net/home/signin";
 
             var emloyee = await _userManager.CreateAsync(new()
             {
@@ -72,9 +74,11 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
                 Department = request.User.Department,
                 Adress = request.User.Adress,
                 PhoneNumber = request.User.PhoneNumber,
-                CompanyIdString = request.User.CompanyIdString,
+                CompanyIdString = companyId,
                 UserName = userName,
-                Email = _emailService.ConvertToEmail(request.User.Firstname, request.User.MiddleName, request.User.LastName, request.User.SecondSurname)
+                Email = _emailService.ConvertToEmail(request.User.Firstname, request.User.MiddleName, request.User.LastName, request.User.SecondSurname),
+                Salary = request.User.Salary,
+                ManagerId = currentUser.Id
             }, request.Password);
 
 
@@ -104,24 +108,12 @@ namespace HR53.Web.Areas.CompanyManager.Controllers
             return RedirectToAction("Index", "Home", new {area = "CompanyManager"});
         }
 
-        public async Task<IActionResult> Update(string employeeId)
-        {
-
-
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Update()
-        {
-            
-            return RedirectToAction("Index", "Employee");
-        }
-
+        
         public async Task<IActionResult> Delete(string employeeId)
         {
+            var deleteToUser = await _userManager.FindByIdAsync(employeeId);
 
-            await _db.SaveChangesAsync();
+            await _userManager.DeleteAsync(deleteToUser);
 
             return RedirectToAction("Index", "Employee");
         }

@@ -14,7 +14,7 @@ namespace HR53.Web.CustomValidations
                 errors.Add(new()
                 {
                     Code = "PasswordContainUserName",
-                    Description = "Şifre alanı kullanıcı adını içermemelidir."
+                    Description = "Password does not contain username"
                 });
             }
 
@@ -23,7 +23,7 @@ namespace HR53.Web.CustomValidations
                 errors.Add(new()
                 {
                     Code = "PasswordContainsBasicNumbers",
-                    Description = "Şifreniz 123 gibi sıralı rakamlar içermemelidir."
+                    Description = "Password does not contain like 123 numbers."
                 });
             }
 

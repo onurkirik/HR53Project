@@ -10,6 +10,9 @@ using HR53.Service.Services.Concrete;
 using System;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Identity;
+using FluentValidation;
+using HR53.Web.Areas.SiteManager.Validations;
+using HR53.Repository.Entities.Validations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +32,16 @@ builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<IClaimsTransformation, UserClaimProvider>();
 builder.Services.AddScoped<IMemberService, MemberService>();
 builder.Services.AddScoped<IPasswordService, PasswordService>();
+
+
+//builder.Services.AddScoped<IValidator<AppUser>, UserValidator>();
+//builder.Services.AddScoped<IValidator<Company>, CompanyValidator>();
+
+//builder.Services.AddScoped<IValidator<Company>, CompanyValidator>();
+//builder.Services.AddScoped<IValidator<CompanyManager>, CompanyManagerValidator>();
+//builder.Services.AddScoped<IValidator<ApplicationUser>, ApplicationUserValidator>();
+
+
 builder.Services.AddAuthorization();
 
 builder.Services.ConfigureApplicationCookie(opt =>

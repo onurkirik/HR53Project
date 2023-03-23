@@ -11,12 +11,16 @@ namespace HR53.Repository.Entities
     {
         public int Id { get; set; }
         public string ? Description { get; set; }
-        public TypesForEmployeeAdvanceandExpenditure type { get; set; }
+        public TypesForEmployeeAdvanceandExpenditure? Type { get; set; }
         public DateTime RequestDate { get; set; } = DateTime.Now;
-        public ConfirmStatusForEmployee ConfirmStatus { get; set; }
+        public ConfirmStatusForEmployee ConfirmStatus { get; set; } = ConfirmStatusForEmployee.WaitingForApproval;
         public DateTime ReplyDate { get; set; }
-        public decimal Amount { get; set; }
+        public int Amount { get; set; }
         public string? Currency { get; set; }
+        public bool IsApproved { get; set; } = false;
+        public string? CompanyId { get; set; }
+        public string? ManagerId { get; set; }
+        public int TotalAmount { get; set; } = 0;
 
         public string? UserId { get; set; }
         public AppUser? User { get; set; }

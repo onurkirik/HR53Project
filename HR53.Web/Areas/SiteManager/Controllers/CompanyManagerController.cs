@@ -9,6 +9,10 @@ using System.Data;
 using HR53.Repository.Data;
 using System.Collections.Generic;
 using HR53.Service.Services.Abstraction;
+using FluentValidation.Results;
+using FluentValidation;
+using HR53.Repository.Entities.Validations;
+using FluentValidation.AspNetCore;
 
 namespace HR53.Web.Areas.SiteManager.Controllers
 {
@@ -23,6 +27,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
         private readonly IEmailService _emailService;
         private readonly IMemberService _memberService;
         private readonly IPasswordService _passwordService;
+        //private readonly IValidator<CompanyManagerAddViewModel> _validator;
 
         public CompanyManagerController(ApplicationDbContext db, IFileProvider fileProvider, UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IEmailService emailService, IMemberService memberService, IPasswordService passwordService)
         {
@@ -60,15 +65,22 @@ namespace HR53.Web.Areas.SiteManager.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Add(CompanyManagerAddViewModel request)
         {
-            
+            //ValidationResult result = await _validator.ValidateAsync(request);
+            //if (!result.IsValid)
+            //{
+            //    result.AddToModelState(this.ModelState);
+            //    return View("Create", request);
+            //}
+
+
             var role = await _roleManager.FindByNameAsync("CompanyManager");
             var roleName = role.Name;
             var password = await _passwordService.GeneratePasswordAsync(2);
             request.Password = password + ".";
             var userName = _memberService.ConvertUsername(request.User.Firstname, request.User.MiddleName, request.User.LastName, request.User.SecondSurname);
 
-            var signInLink = "https://localhost:7084/home/signin";
-                       
+            var signInLink = "https://hr53.azurewebsites.net/home/signin";
+
             var emloyee = await _userManager.CreateAsync(new()
             {
                 Firstname = request.User.Firstname,
@@ -119,7 +131,7 @@ namespace HR53.Web.Areas.SiteManager.Controllers
         {
             var manager = await _userManager.FindByIdAsync(managerId);
 
-            var companies = await _db.Companies.Where(c => c.Users == null ).ToListAsync();
+            var companies = await _db.Companies.Where(c => c.Users == null).ToListAsync();
 
             var vm = new CompanyManagerUpdateViewModel()
             {

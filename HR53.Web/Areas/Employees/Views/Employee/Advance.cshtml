@@ -1,5 +1,4 @@
-﻿@using HR53.Repository.Enum;
-@model EmployeeAdvance
+﻿@model EmployeeAdvance
 @{
     ViewData["Title"] = "Advance";
 }
@@ -7,7 +6,21 @@
     SelectList types = ViewBag.Types;
 }
 
-<h1>Advance</h1>
+@if (TempData["Warning"] != null)
+{
+    <div class="alert alert-info m-4">
+        <h3>@TempData["Warning"]</h3>
+    </div>
+}
+
+@if (TempData["Warning1"] != null)
+{
+    <div class="alert alert-info m-4">
+        <h3>@TempData["Warning1"]</h3>
+    </div>
+}
+
+<h1 class="mx-4">Advance</h1>
 <div class="container-xxl flex-grow-1 container-p-y">
 
     <div class="row">
@@ -16,19 +29,27 @@
                 <form asp-area="Employees" asp-controller="Employee" asp-action="Advance" method="post">
                     <div class="card-body">
                         <div>
-                            <label id="defaultFormcontrolInput" class="form-label">Type:</label><br />
-                            @foreach (var item in types)
-                            {
-                                <td class="m-4">@item.Text</td>
-                                <td><input type="radio" name="selectedSizeIds" value="@item.Value" /></td>
-                            }
+                            <div class="mb-3">
+                                <label class="form-label">Type:</label>
+                                <table class="table table-hover">
+                                    <tbody>
+                                        @foreach (var type in types)
+                                        {
+                                            <tr>
+                                                <td>@type.Text</td>
+                                                <td><input type="radio" asp-for="Type" value="@type.Value" /></td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                         <div>
                             <label asp-for="Description" id="defaultFormcontrolInput" class="form-label">Description:</label>
-                            <input asp-for="Description" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <textarea asp-for="Description" type="text" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp"></textarea>
                             <span asp-validation-for="Description" class="text-danger"></span>
                         </div>
-                        @*                        <div>
+                        @*<div>
                         <label asp-for="RequestDate" id="defaultFormcontrolInput" class="form-label">Request Date:</label>
                         <input asp-for="RequestDate" type="date" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
                         <span asp-validation-for="RequestDate" class="text-danger"></span>

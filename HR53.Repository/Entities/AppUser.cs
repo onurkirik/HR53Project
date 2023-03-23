@@ -24,6 +24,9 @@ namespace HR53.Repository.Entities
         public string? Picture { get; set; }
         public override string? UserName { get; set; }
         public int LoginCount { get; set; } = 0;
+        public int? Salary { get; set; }
+        public int TotalAmount { get; set; } = 0;
+        public string? ManagerId { get; set; }
 
         public string? CompanyIdString { get; set; }
         public Company? Company { get; set; }

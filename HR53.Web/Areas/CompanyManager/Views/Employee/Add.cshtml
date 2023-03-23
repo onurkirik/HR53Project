@@ -3,7 +3,7 @@
     ViewData["Title"] = "Add";
 }
 
-<h1>Add Employee</h1>
+<h1 class="m-4">Add Employee</h1>
 
 <div class="container-xxl flex-grow-1 container-p-y">
 
@@ -77,9 +77,15 @@
 
                         </div>
                         <div class="mb-3">
-                            <label asp-for="User.Picture" class="form-label">Default file input example</label>
-                            <input class="form-control" type="file" asp-for="User.Picture" id="formFile">
-                            <span asp-validation-for="User.Picture" class="text-danger"></span>
+                            <label asp-for="PictureUrl" class="form-label">Default file input example</label>
+                            <input class="form-control" type="file" asp-for="PictureUrl" id="formFile">
+                            <span asp-validation-for="PictureUrl" class="text-danger"></span>
+                        </div>
+                        <div>
+                            <label asp-for="User.Salary" id="defaultFormcontrolInput" class="form-label">Salary: </label>
+                            <input asp-for="User.Salary" type="number" class="form-control mb-3" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp">
+                            <span asp-validation-for="User.Salary" class="text-danger"></span>
+
                         </div>
 
                         <div class="form-group float-end">

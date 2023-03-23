@@ -51,7 +51,7 @@ namespace HR53.Web.Areas.Employees.Controllers
 
             await _passwordService.ChangePasswordAsync(request, currentUser);
 
-            TempData["SuccessMessage"] = "Şifreniz başarıyla değiştirilmiştir.";
+            TempData["SuccessMessage1"] = "Your password changed successfully";
             await _memberService.LogOutAsync();
 
             return RedirectToAction("SignIn", "Home", new { area = "" });

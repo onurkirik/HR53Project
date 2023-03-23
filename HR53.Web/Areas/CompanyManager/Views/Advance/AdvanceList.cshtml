@@ -1,0 +1,57 @@
+﻿@model List<EmployeeAdvance>
+@{
+    ViewData["Title"] = "AdvanceList";
+}
+
+<h1 class="m-4">AdvanceList</h1>
+<div class="p-3 m-3">
+    <table class="table table-stripped table-hover">
+        <thead>
+            <tr class="text-center">
+                <th>Full Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Currency</th>
+                <th scope="col">Request Date</th>
+                <th scope="col">Reply Date</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var advance in Model)
+            {
+                <tr class="text-center">
+                    <td>@advance.User.Firstname @advance.User.LastName</td>
+                    <td>@advance.Description</td>
+                    <td>@advance.Amount</td>
+                    <td>@advance.Currency</td>
+                    <td>@advance.RequestDate.ToShortDateString()</td>
+
+                    @if (advance.ConfirmStatus == ConfirmStatusForEmployee.WaitingForApproval)
+                    {
+                        <td>-</td>
+                    }
+                    else
+                    {
+                        <td>@advance.ReplyDate.ToShortDateString()</td>
+                    }
+                    @if (advance.ConfirmStatus == ConfirmStatusForEmployee.WaitingForApproval)
+                    {
+                        <td><a asp-area="CompanyManager" asp-controller="Advance" asp-action="Approve" data-id="@advance.Id" asp-route-advanceId="@advance.Id"><i class="fa-regular fa-circle-check text-success fs-4"></i></a></td>
+
+                        <td><a asp-area="CompanyManager" asp-controller="Advance" asp-action="Cancel" data-id="@advance.Id" asp-route-advanceId="@advance.Id"><i class="fa-solid fa-xmark text-warning fs-4"></i></a></td>
+                    }
+                    else if(advance.ConfirmStatus == ConfirmStatusForEmployee.Denied)
+                    {
+                        <td class="text-danger">DENIED</td>
+                    }
+                    else if(advance.ConfirmStatus == ConfirmStatusForEmployee.Approved)
+                    {
+                        <td class="text-success">APPROVED</td>
+
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

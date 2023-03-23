@@ -1,4 +1,6 @@
 ﻿@using System.Security.Claims;
+@using Microsoft.AspNetCore.Identity;
+@inject UserManager<AppUser> _userManager
 <html lang="tr" class="light-style layout-menu-fixed " dir="ltr" data-theme="theme-default" data-template="vertical-menhref=" u-template-free">
 
 <head>
@@ -107,21 +109,24 @@
                     <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
                         <ul class="navbar-nav flex-row align-items-center ms-auto">
                             <!-- User -->
-                            <li class="nav-item navbar-dropdown dropdown-user dropdown">
-                                <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
-                                    <div class="avatar avatar-online">
-                                        <img src="~/images/bg.jpg" class="w-px-40 h-auto rounded-circle">
-                                    </div>
-                                </a>
-                                @if (User.Identity!.IsAuthenticated)
-                                {
+                            @if (User.Identity!.IsAuthenticated)
+                            {
+
+                                var user = await _userManager.FindByNameAsync(User.Identity.Name);
+
+                                <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                                    <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                                        <div class="avatar avatar-online">
+                                            <img src="~/images/@user.Picture" class="w-px-40 h-auto rounded-circle">
+                                        </div>
+                                    </a>
                                     <ul class="dropdown-menu dropdown-menu-end">
                                         <li>
                                             <a class="dropdown-item" href="#">
                                                 <div class="d-flex">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar avatar-online">
-                                                            <img src="~/images/bg.jpg" alt="avukat_nurselenay_zengin" class="w-px-40 h-auto rounded-circle">
+                                                            <img src="~/images/@user.Picture" alt="" class="w-px-40 h-auto rounded-circle">
                                                         </div>
                                                     </div>
                                                     <div class="flex-grow-1">
@@ -140,17 +145,17 @@
                                         @if (User.HasClaim(x => x.Type == ClaimTypes.Role && x.Value == "SiteManager"))
                                         {
                                             <li>
-                                                <a class="dropdown-item" asp-route-returnUrl="/Home/Index" asp-area="" asp-controller="Home" asp-action="LogOut">
+                                                <a class="dropdown-item" asp-route-returnUrl="/Home/SignIn" asp-area="" asp-controller="Home" asp-action="LogOut">
                                                     <i class="bx bx-power-off me-2"></i>
-                                                    <span class="align-middle">Çıkış Yap</span>
+                                                    <span class="align-middle">Sign Out</span>
                                                 </a>
                                             </li>
 
                                         }
                                     </ul>
-                                }
 
-                            </li>
+                                </li>
+                            }
                             <!--/ User -->
                         </ul>
                     </div>

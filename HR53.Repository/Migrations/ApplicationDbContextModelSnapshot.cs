@@ -110,6 +110,9 @@ namespace HR53.Repository.Migrations
                     b.Property<int>("LoginCount")
                         .HasColumnType("int");
 
+                    b.Property<string>("ManagerId")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("MiddleName")
                         .HasColumnType("nvarchar(max)");
 
@@ -137,11 +140,17 @@ namespace HR53.Repository.Migrations
                         .HasMaxLength(10)
                         .HasColumnType("nvarchar(10)");
 
+                    b.Property<int?>("Salary")
+                        .HasColumnType("int");
+
                     b.Property<string>("SecondSurname")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TotalAmount")
+                        .HasColumnType("int");
 
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("bit");
@@ -232,8 +241,11 @@ namespace HR53.Repository.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CompanyId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("ConfirmStatus")
                         .HasColumnType("int");
@@ -244,17 +256,26 @@ namespace HR53.Repository.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("ManagerId")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("ReplyDate")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("RequestDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("TotalAmount")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Type")
+                        .HasColumnType("int");
+
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("type")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -271,11 +292,12 @@ namespace HR53.Repository.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("ConfirmStatus")
+                    b.Property<int>("Amount")
                         .HasColumnType("int");
+
+                    b.Property<string>("ConfirmStatus")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Currency")
                         .HasColumnType("nvarchar(max)");
@@ -292,11 +314,12 @@ namespace HR53.Repository.Migrations
                     b.Property<DateTime>("RequestDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("type")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
