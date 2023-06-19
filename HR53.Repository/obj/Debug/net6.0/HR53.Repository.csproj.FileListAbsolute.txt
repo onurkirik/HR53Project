@@ -1,0 +1,17 @@
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\bin\Debug\net6.0\HR53.Repository.deps.json
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\bin\Debug\net6.0\HR53.Repository.runtimeconfig.json
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\bin\Debug\net6.0\HR53.Repository.dll
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\bin\Debug\net6.0\HR53.Repository.pdb
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\bin\Debug\net6.0\HR53.Core.dll
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\bin\Debug\net6.0\HR53.Core.pdb
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\obj\Debug\net6.0\HR53.Repository.csproj.AssemblyReference.cache
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\obj\Debug\net6.0\HR53.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\obj\Debug\net6.0\HR53.Repository.AssemblyInfoInputs.cache
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\obj\Debug\net6.0\HR53.Repository.AssemblyInfo.cs
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\obj\Debug\net6.0\HR53.Repository.csproj.CoreCompileInputs.cache
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\obj\Debug\net6.0\HR53.Repository.csproj.CopyComplete
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\obj\Debug\net6.0\HR53.Repository.dll
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\obj\Debug\net6.0\refint\HR53.Repository.dll
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\obj\Debug\net6.0\HR53.Repository.pdb
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\obj\Debug\net6.0\HR53.Repository.genruntimeconfig.cache
+C:\Users\kirik\OneDrive\Masaüstü\HR53ProjectAgain\HR53.Repository\obj\Debug\net6.0\ref\HR53.Repository.dll

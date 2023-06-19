@@ -1,0 +1,2541 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HR53.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HR53.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\font\\summernote.eot",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\font\\summernote.eot"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\font\\summernote.ttf",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\font\\summernote.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\font\\summernote.woff",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\font\\summernote.woff"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\font\\summernote.woff2",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\font\\summernote.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ar-AR.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ar-AR.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ar-AR.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ar-AR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-az-AZ.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-az-AZ.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-az-AZ.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-az-AZ.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-bg-BG.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-bg-BG.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-bg-BG.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-bg-BG.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ca-ES.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ca-ES.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ca-ES.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ca-ES.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-cs-CZ.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-cs-CZ.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-cs-CZ.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-cs-CZ.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-da-DK.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-da-DK.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-da-DK.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-da-DK.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-de-DE.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-de-DE.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-de-DE.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-de-DE.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-el-GR.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-el-GR.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-el-GR.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-el-GR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-es-ES.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-es-ES.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-es-ES.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-es-ES.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-es-EU.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-es-EU.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-es-EU.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-es-EU.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-fa-IR.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-fa-IR.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-fa-IR.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-fa-IR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-fi-FI.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-fi-FI.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-fi-FI.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-fi-FI.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-fr-FR.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-fr-FR.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-fr-FR.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-fr-FR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-gl-ES.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-gl-ES.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-gl-ES.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-gl-ES.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-he-IL.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-he-IL.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-he-IL.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-he-IL.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-hr-HR.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-hr-HR.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-hr-HR.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-hr-HR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-hu-HU.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-hu-HU.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-hu-HU.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-hu-HU.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-id-ID.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-id-ID.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-id-ID.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-id-ID.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-it-IT.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-it-IT.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-it-IT.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-it-IT.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ja-JP.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ja-JP.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ja-JP.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ja-JP.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ko-KR.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ko-KR.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ko-KR.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ko-KR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-lt-LT.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-lt-LT.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-lt-LT.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-lt-LT.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-lt-LV.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-lt-LV.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-lt-LV.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-lt-LV.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-mn-MN.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-mn-MN.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-mn-MN.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-mn-MN.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-nb-NO.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-nb-NO.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-nb-NO.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-nb-NO.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-nl-NL.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-nl-NL.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-nl-NL.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-nl-NL.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-pl-PL.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-pl-PL.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-pl-PL.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-pl-PL.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-pt-BR.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-pt-BR.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-pt-BR.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-pt-BR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-pt-PT.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-pt-PT.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-pt-PT.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-pt-PT.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ro-RO.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ro-RO.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ro-RO.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ro-RO.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ru-RU.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ru-RU.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ru-RU.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ru-RU.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-sk-SK.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-sk-SK.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-sk-SK.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-sk-SK.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-sl-SI.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-sl-SI.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-sl-SI.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-sl-SI.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-sr-RS-Latin.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-sr-RS-Latin.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-sr-RS-Latin.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-sr-RS-Latin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-sr-RS.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-sr-RS.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-sr-RS.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-sr-RS.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-sv-SE.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-sv-SE.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-sv-SE.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-sv-SE.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ta-IN.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ta-IN.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-ta-IN.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-ta-IN.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-th-TH.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-th-TH.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-th-TH.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-th-TH.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-tr-TR.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-tr-TR.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-tr-TR.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-tr-TR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-uk-UA.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-uk-UA.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-uk-UA.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-uk-UA.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-uz-UZ.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-uz-UZ.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-uz-UZ.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-uz-UZ.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-vi-VN.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-vi-VN.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-vi-VN.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-vi-VN.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-zh-CN.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-zh-CN.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-zh-CN.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-zh-CN.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-zh-TW.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-zh-TW.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\lang\\summernote-zh-TW.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\lang\\summernote-zh-TW.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.css",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.min.css",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\plugin\\databasic\\summernote-ext-databasic.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\plugin\\hello\\summernote-ext-hello.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\plugin\\hello\\summernote-ext-hello.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\plugin\\hello\\summernote-ext-hello.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\plugin\\hello\\summernote-ext-hello.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\plugin\\specialchars\\summernote-ext-specialchars.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\plugin\\specialchars\\summernote-ext-specialchars.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\plugin\\specialchars\\summernote-ext-specialchars.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\plugin\\specialchars\\summernote-ext-specialchars.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote-bs4.css",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote-bs4.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote-bs4.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote-bs4.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote-bs4.js.map",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote-bs4.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote-bs4.min.css",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote-bs4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote-bs4.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote-bs4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote-bs4.min.js.map",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote-bs4.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote-lite.css",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote-lite.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote-lite.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote-lite.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote-lite.js.map",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote-lite.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote-lite.min.css",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote-lite.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote-lite.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote-lite.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote-lite.min.js.map",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote-lite.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote.css",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote.js.map",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote.min.css",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote.min.js",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\SiteManager\\lib\\summernote\\summernote.min.js.map",
+      "PackagePath": "staticwebassets\\SiteManager\\lib\\summernote\\summernote.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\070bb215-b95f-4415-90c2-083769298de3.jpg",
+      "PackagePath": "staticwebassets\\images\\070bb215-b95f-4415-90c2-083769298de3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\08f9f35a-b8a0-4aee-b96e-427ede7f16ae.jpg",
+      "PackagePath": "staticwebassets\\images\\08f9f35a-b8a0-4aee-b96e-427ede7f16ae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\0b129ff9-540e-46a8-aa60-9f8991f07526.jpg",
+      "PackagePath": "staticwebassets\\images\\0b129ff9-540e-46a8-aa60-9f8991f07526.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\0c3c1d9d-01db-4e29-b386-1402f515ff35.png",
+      "PackagePath": "staticwebassets\\images\\0c3c1d9d-01db-4e29-b386-1402f515ff35.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\14550d7e-51ee-45e1-9fef-3da82be33eb8.jpg",
+      "PackagePath": "staticwebassets\\images\\14550d7e-51ee-45e1-9fef-3da82be33eb8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\147a2a67-31d7-4776-8000-b7f996031cc4.png",
+      "PackagePath": "staticwebassets\\images\\147a2a67-31d7-4776-8000-b7f996031cc4.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\151fab7c-eab5-4698-8024-c68c6ca483ba.jpg",
+      "PackagePath": "staticwebassets\\images\\151fab7c-eab5-4698-8024-c68c6ca483ba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\18e6f2b2-badc-46c0-8071-6483ed7fdf13.jpg",
+      "PackagePath": "staticwebassets\\images\\18e6f2b2-badc-46c0-8071-6483ed7fdf13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\1bb4d5b2-ccab-439d-8418-9975b8f8e62b.png",
+      "PackagePath": "staticwebassets\\images\\1bb4d5b2-ccab-439d-8418-9975b8f8e62b.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\21dbaa4e-7ca7-4b9f-875a-c86572e31598.png",
+      "PackagePath": "staticwebassets\\images\\21dbaa4e-7ca7-4b9f-875a-c86572e31598.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\232cff45-97e7-4a2f-b059-0fbce0b0db83.png",
+      "PackagePath": "staticwebassets\\images\\232cff45-97e7-4a2f-b059-0fbce0b0db83.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\25019a29-a339-43f8-865c-29f73d89afdd.png",
+      "PackagePath": "staticwebassets\\images\\25019a29-a339-43f8-865c-29f73d89afdd.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\25ad499f-cac0-46cd-9f92-ecccfbc47a74.jpg",
+      "PackagePath": "staticwebassets\\images\\25ad499f-cac0-46cd-9f92-ecccfbc47a74.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\25e2e7d9-a76e-4880-ab01-f52cd3372b44.jpg",
+      "PackagePath": "staticwebassets\\images\\25e2e7d9-a76e-4880-ab01-f52cd3372b44.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\2b986666-6cd4-4936-8e22-9dcb08c6a91a.png",
+      "PackagePath": "staticwebassets\\images\\2b986666-6cd4-4936-8e22-9dcb08c6a91a.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\31bb283f-37a9-4e05-a622-366307dae92e.png",
+      "PackagePath": "staticwebassets\\images\\31bb283f-37a9-4e05-a622-366307dae92e.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\343f1f42-e6ce-4492-b8dc-463f2e0e1d43.jpg",
+      "PackagePath": "staticwebassets\\images\\343f1f42-e6ce-4492-b8dc-463f2e0e1d43.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\34954254-b3f7-4466-ba6e-78dc3c5b44ad.jpg",
+      "PackagePath": "staticwebassets\\images\\34954254-b3f7-4466-ba6e-78dc3c5b44ad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\37712b3f-b90e-4e2e-b7c8-6a18248f2401.png",
+      "PackagePath": "staticwebassets\\images\\37712b3f-b90e-4e2e-b7c8-6a18248f2401.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\37ffd295-fb8e-4452-adb6-969130dc71ca.jpg",
+      "PackagePath": "staticwebassets\\images\\37ffd295-fb8e-4452-adb6-969130dc71ca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\39b7fda1-4b56-4dfc-bdf9-e1b490d6ce17.jpg",
+      "PackagePath": "staticwebassets\\images\\39b7fda1-4b56-4dfc-bdf9-e1b490d6ce17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\39ff2d65-59e8-4e30-9d56-5add7d46b903.png",
+      "PackagePath": "staticwebassets\\images\\39ff2d65-59e8-4e30-9d56-5add7d46b903.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\3a6ec67f-f7a4-4653-b091-b45bd0a82ac7.png",
+      "PackagePath": "staticwebassets\\images\\3a6ec67f-f7a4-4653-b091-b45bd0a82ac7.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\3c6f179f-f1c3-4163-ae8e-a8ead160fa5e.jpg",
+      "PackagePath": "staticwebassets\\images\\3c6f179f-f1c3-4163-ae8e-a8ead160fa5e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\4003c330-e1e4-44b7-bd73-a6249ef5487a.jpg",
+      "PackagePath": "staticwebassets\\images\\4003c330-e1e4-44b7-bd73-a6249ef5487a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\5c1ecc91-f87d-4cd1-9822-64eaba53ed09.jpg",
+      "PackagePath": "staticwebassets\\images\\5c1ecc91-f87d-4cd1-9822-64eaba53ed09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\64409cdd-c66b-48a2-af21-56aafc27fa14.png",
+      "PackagePath": "staticwebassets\\images\\64409cdd-c66b-48a2-af21-56aafc27fa14.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\648af485-77a2-45fe-9a32-7ce42e0a5ec6.jpg",
+      "PackagePath": "staticwebassets\\images\\648af485-77a2-45fe-9a32-7ce42e0a5ec6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\64d09d32-f859-4c39-a57b-b07ee130319d.jpg",
+      "PackagePath": "staticwebassets\\images\\64d09d32-f859-4c39-a57b-b07ee130319d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\6938cb45-49c9-478f-9fac-a34402a43450.jpg",
+      "PackagePath": "staticwebassets\\images\\6938cb45-49c9-478f-9fac-a34402a43450.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\6a13efb8-79ae-47af-90ad-bf2a114c7775.jpg",
+      "PackagePath": "staticwebassets\\images\\6a13efb8-79ae-47af-90ad-bf2a114c7775.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\6be985b4-3f69-408f-9851-021102d57945.png",
+      "PackagePath": "staticwebassets\\images\\6be985b4-3f69-408f-9851-021102d57945.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\6ee89578-aed5-4e04-8555-f410b2249702.png",
+      "PackagePath": "staticwebassets\\images\\6ee89578-aed5-4e04-8555-f410b2249702.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\7231fb77-951f-4ef2-bd6d-4ddbb1c20e1d.jpg",
+      "PackagePath": "staticwebassets\\images\\7231fb77-951f-4ef2-bd6d-4ddbb1c20e1d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\725fd1e9-f531-41fb-b7ec-feec67b8051e.png",
+      "PackagePath": "staticwebassets\\images\\725fd1e9-f531-41fb-b7ec-feec67b8051e.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\7265966c-1f17-436b-a2e3-6156caca4fb4.png",
+      "PackagePath": "staticwebassets\\images\\7265966c-1f17-436b-a2e3-6156caca4fb4.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\768cc072-58df-4b13-b8e0-77fc9c3a08ff.jpg",
+      "PackagePath": "staticwebassets\\images\\768cc072-58df-4b13-b8e0-77fc9c3a08ff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\76b5364b-1a4d-4d23-adf7-7136e67321e6.jpg",
+      "PackagePath": "staticwebassets\\images\\76b5364b-1a4d-4d23-adf7-7136e67321e6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\79a245e9-6a7d-4642-9536-7c6942071bff.jpg",
+      "PackagePath": "staticwebassets\\images\\79a245e9-6a7d-4642-9536-7c6942071bff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\7a983543-04a2-40d1-b99d-ee6e7be4e62d.png",
+      "PackagePath": "staticwebassets\\images\\7a983543-04a2-40d1-b99d-ee6e7be4e62d.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\7ed7d9bd-b735-42e4-9d79-b63f4c5918d5.png",
+      "PackagePath": "staticwebassets\\images\\7ed7d9bd-b735-42e4-9d79-b63f4c5918d5.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\7f2b9f90-998d-4068-a31c-51d1be108cac.png",
+      "PackagePath": "staticwebassets\\images\\7f2b9f90-998d-4068-a31c-51d1be108cac.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\827313fb-f46a-4c35-b78c-c0cd359549c2.jpg",
+      "PackagePath": "staticwebassets\\images\\827313fb-f46a-4c35-b78c-c0cd359549c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\87e5ad45-7178-4d2a-be5a-420b518752d1.jpg",
+      "PackagePath": "staticwebassets\\images\\87e5ad45-7178-4d2a-be5a-420b518752d1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\8a60206b-442e-4705-86ab-55e8774c7a3c.jpg",
+      "PackagePath": "staticwebassets\\images\\8a60206b-442e-4705-86ab-55e8774c7a3c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\8bb56742-5fc6-489f-95f4-b12629db7905.jpg",
+      "PackagePath": "staticwebassets\\images\\8bb56742-5fc6-489f-95f4-b12629db7905.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\8d627253-cd64-4ece-98ff-c484ad8cbc99.jpg",
+      "PackagePath": "staticwebassets\\images\\8d627253-cd64-4ece-98ff-c484ad8cbc99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\900b7bae-3423-4cb2-b25c-9b27747e10b3.png",
+      "PackagePath": "staticwebassets\\images\\900b7bae-3423-4cb2-b25c-9b27747e10b3.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\90638f90-b5d5-4a7b-bb62-b87eab0c0700.png",
+      "PackagePath": "staticwebassets\\images\\90638f90-b5d5-4a7b-bb62-b87eab0c0700.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\91b97eb5-c877-4ae9-9cf9-0646e313e697.jpg",
+      "PackagePath": "staticwebassets\\images\\91b97eb5-c877-4ae9-9cf9-0646e313e697.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\921ef16f-9c3d-41d1-a60c-559efef4e69e.jpg",
+      "PackagePath": "staticwebassets\\images\\921ef16f-9c3d-41d1-a60c-559efef4e69e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\94e07fd7-fe3b-43a9-b9b0-7ff2ad5781e1.png",
+      "PackagePath": "staticwebassets\\images\\94e07fd7-fe3b-43a9-b9b0-7ff2ad5781e1.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\95e036c9-dacc-49a4-9d71-e072fec4ff78.jpg",
+      "PackagePath": "staticwebassets\\images\\95e036c9-dacc-49a4-9d71-e072fec4ff78.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\9777dba1-7a63-40d0-83aa-f9cfa7a658a9.jpg",
+      "PackagePath": "staticwebassets\\images\\9777dba1-7a63-40d0-83aa-f9cfa7a658a9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\9c716c0e-d8b3-4d4c-a356-b4b294e574a9.png",
+      "PackagePath": "staticwebassets\\images\\9c716c0e-d8b3-4d4c-a356-b4b294e574a9.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\9c799918-cb87-48d1-98a4-8782362d2ab9.jpg",
+      "PackagePath": "staticwebassets\\images\\9c799918-cb87-48d1-98a4-8782362d2ab9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\9f295f76-51ad-4121-877d-6167775a83a1.png",
+      "PackagePath": "staticwebassets\\images\\9f295f76-51ad-4121-877d-6167775a83a1.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\9f9a8c08-ba79-4df7-9a71-165f4f8d0e81.jpg",
+      "PackagePath": "staticwebassets\\images\\9f9a8c08-ba79-4df7-9a71-165f4f8d0e81.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\9fbe68f5-ad98-475c-97fe-043c96b84036.png",
+      "PackagePath": "staticwebassets\\images\\9fbe68f5-ad98-475c-97fe-043c96b84036.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\a3f8a909-3600-4b08-aa95-200e5d8be63e.jpg",
+      "PackagePath": "staticwebassets\\images\\a3f8a909-3600-4b08-aa95-200e5d8be63e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\a4fab18c-7b80-4dce-af01-bd3d2a20918a.png",
+      "PackagePath": "staticwebassets\\images\\a4fab18c-7b80-4dce-af01-bd3d2a20918a.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\a6f51911-9af8-44f6-a848-ce05d2fa70d5.jpg",
+      "PackagePath": "staticwebassets\\images\\a6f51911-9af8-44f6-a848-ce05d2fa70d5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\adf211dc-c27e-4a49-93c0-3c5bd649a50d.jpg",
+      "PackagePath": "staticwebassets\\images\\adf211dc-c27e-4a49-93c0-3c5bd649a50d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\ae5e6e40-f9df-4c3b-942f-68e469ff036c.jpg",
+      "PackagePath": "staticwebassets\\images\\ae5e6e40-f9df-4c3b-942f-68e469ff036c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\b293e543-78ea-42ea-b39d-fe0f184b4115.png",
+      "PackagePath": "staticwebassets\\images\\b293e543-78ea-42ea-b39d-fe0f184b4115.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\b4b0e583-b068-4ab4-b1a3-7d80e99494a8.png",
+      "PackagePath": "staticwebassets\\images\\b4b0e583-b068-4ab4-b1a3-7d80e99494a8.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\bc68c4e1-3870-4c66-b4f1-5a448224510a.jpg",
+      "PackagePath": "staticwebassets\\images\\bc68c4e1-3870-4c66-b4f1-5a448224510a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\bd6b6270-ed79-478d-acd6-ef1bea1ca0cc.png",
+      "PackagePath": "staticwebassets\\images\\bd6b6270-ed79-478d-acd6-ef1bea1ca0cc.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\images\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\bgimage.jpg",
+      "PackagePath": "staticwebassets\\images\\bgimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\bgimageman.jpg",
+      "PackagePath": "staticwebassets\\images\\bgimageman.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\c03210e6-5232-4cb6-9192-7f1dd2c9e57b.png",
+      "PackagePath": "staticwebassets\\images\\c03210e6-5232-4cb6-9192-7f1dd2c9e57b.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\c0749b56-ee3e-4b8d-bd0b-2489f3bcf2c1.png",
+      "PackagePath": "staticwebassets\\images\\c0749b56-ee3e-4b8d-bd0b-2489f3bcf2c1.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\c1753b6c-2b13-473f-9eb4-30352ac0bdc1.jpg",
+      "PackagePath": "staticwebassets\\images\\c1753b6c-2b13-473f-9eb4-30352ac0bdc1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\c281c13d-ea68-4e0b-8326-806a6e456b84.jpg",
+      "PackagePath": "staticwebassets\\images\\c281c13d-ea68-4e0b-8326-806a6e456b84.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\c63c6a8e-aec7-4918-89d8-ccb093f608d2.jpg",
+      "PackagePath": "staticwebassets\\images\\c63c6a8e-aec7-4918-89d8-ccb093f608d2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\c66dc44d-a406-4f82-ae50-920a947f533f.jpg",
+      "PackagePath": "staticwebassets\\images\\c66dc44d-a406-4f82-ae50-920a947f533f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\c6d7534a-9cfe-47f4-b6f6-24c51e245396.jpeg",
+      "PackagePath": "staticwebassets\\images\\c6d7534a-9cfe-47f4-b6f6-24c51e245396.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\ca21a614-6637-43ce-a7b9-d4d11da1d302.jpg",
+      "PackagePath": "staticwebassets\\images\\ca21a614-6637-43ce-a7b9-d4d11da1d302.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\cbda785c-5744-4dc8-afe8-52bc00045e10.jpg",
+      "PackagePath": "staticwebassets\\images\\cbda785c-5744-4dc8-afe8-52bc00045e10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\d0959b30-5721-4e66-873b-88ecb4e2a79c.jpg",
+      "PackagePath": "staticwebassets\\images\\d0959b30-5721-4e66-873b-88ecb4e2a79c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\d1364790-5007-4350-b04b-9e4cbd6e9b42.jpg",
+      "PackagePath": "staticwebassets\\images\\d1364790-5007-4350-b04b-9e4cbd6e9b42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\d6f75737-e388-4b98-9344-38a6a3f6f096.jpg",
+      "PackagePath": "staticwebassets\\images\\d6f75737-e388-4b98-9344-38a6a3f6f096.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\da609bd6-e49e-45a5-8590-f26d6a7fd87e.jpg",
+      "PackagePath": "staticwebassets\\images\\da609bd6-e49e-45a5-8590-f26d6a7fd87e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\de508f02-da46-4ff1-8b0e-c8575befa967.png",
+      "PackagePath": "staticwebassets\\images\\de508f02-da46-4ff1-8b0e-c8575befa967.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\de8398ea-7e21-4a23-8d5d-32c76d4ebeb3.png",
+      "PackagePath": "staticwebassets\\images\\de8398ea-7e21-4a23-8d5d-32c76d4ebeb3.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\dee72872-962c-4c73-afe6-db04c9c75763.png",
+      "PackagePath": "staticwebassets\\images\\dee72872-962c-4c73-afe6-db04c9c75763.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\df20db1d-0d4d-4d0a-9937-ea12d03313db.png",
+      "PackagePath": "staticwebassets\\images\\df20db1d-0d4d-4d0a-9937-ea12d03313db.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\df3fe4c7-8369-41d2-973a-849a2944071e.jpg",
+      "PackagePath": "staticwebassets\\images\\df3fe4c7-8369-41d2-973a-849a2944071e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\e1f95498-f5c1-41f7-935a-f5de6b302a6a.png",
+      "PackagePath": "staticwebassets\\images\\e1f95498-f5c1-41f7-935a-f5de6b302a6a.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\e2164722-3103-4bd3-8fca-166074ca2d54.png",
+      "PackagePath": "staticwebassets\\images\\e2164722-3103-4bd3-8fca-166074ca2d54.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\e47c3740-71e2-45ea-980a-d9f11ead015f.jpg",
+      "PackagePath": "staticwebassets\\images\\e47c3740-71e2-45ea-980a-d9f11ead015f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\e56c8cb2-b71d-40fb-bfde-723170ae2c43.jpg",
+      "PackagePath": "staticwebassets\\images\\e56c8cb2-b71d-40fb-bfde-723170ae2c43.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\e6342660-747d-4077-bc99-69fe6e42caf8.png",
+      "PackagePath": "staticwebassets\\images\\e6342660-747d-4077-bc99-69fe6e42caf8.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\e881aac9-d3de-4c52-8181-585ebfd5391c.png",
+      "PackagePath": "staticwebassets\\images\\e881aac9-d3de-4c52-8181-585ebfd5391c.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\e8e74ba6-e7c7-4e91-b0a0-4f51a9ac44c6.jpg",
+      "PackagePath": "staticwebassets\\images\\e8e74ba6-e7c7-4e91-b0a0-4f51a9ac44c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\e9061ca4-63cb-4f03-9e10-2dc8c90cea7c.jpg",
+      "PackagePath": "staticwebassets\\images\\e9061ca4-63cb-4f03-9e10-2dc8c90cea7c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\eb568010-566d-419c-a7bf-289b9fab0ecd.jpg",
+      "PackagePath": "staticwebassets\\images\\eb568010-566d-419c-a7bf-289b9fab0ecd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\ed2eeb7d-1e33-4ac4-bd56-b90f299aa34e.png",
+      "PackagePath": "staticwebassets\\images\\ed2eeb7d-1e33-4ac4-bd56-b90f299aa34e.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\eef1c93b-2d79-4c7d-abc1-9bd35bdd5fc7.jpg",
+      "PackagePath": "staticwebassets\\images\\eef1c93b-2d79-4c7d-abc1-9bd35bdd5fc7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\ef421957-6e9b-4e8e-a8a3-93ad707f7434.png",
+      "PackagePath": "staticwebassets\\images\\ef421957-6e9b-4e8e-a8a3-93ad707f7434.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\f3068018-e7a1-48d4-9b0a-0deb47c30828.png",
+      "PackagePath": "staticwebassets\\images\\f3068018-e7a1-48d4-9b0a-0deb47c30828.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\f45d768a-dc08-4d04-b7b4-e58bc4d8bc38.jpg",
+      "PackagePath": "staticwebassets\\images\\f45d768a-dc08-4d04-b7b4-e58bc4d8bc38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\f4ed6150-9d5c-40f4-b1f3-84c36b6efde6.png",
+      "PackagePath": "staticwebassets\\images\\f4ed6150-9d5c-40f4-b1f3-84c36b6efde6.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\f6c86a48-7a50-4e24-bbf4-08f7014287f2.png",
+      "PackagePath": "staticwebassets\\images\\f6c86a48-7a50-4e24-bbf4-08f7014287f2.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\f971e035-eacb-4635-8f0f-ac63d7b630f6.jpg",
+      "PackagePath": "staticwebassets\\images\\f971e035-eacb-4635-8f0f-ac63d7b630f6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\f994ae84-0fde-4355-8f0b-c5699c2a5623.png",
+      "PackagePath": "staticwebassets\\images\\f994ae84-0fde-4355-8f0b-c5699c2a5623.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\fa1564e7-702e-4b32-9f39-3aaa6e1dc1cf.jpg",
+      "PackagePath": "staticwebassets\\images\\fa1564e7-702e-4b32-9f39-3aaa6e1dc1cf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\images\\fea4f335-1ca6-44a4-a98a-df5b37ec0930.jpg",
+      "PackagePath": "staticwebassets\\images\\fea4f335-1ca6-44a4-a98a-df5b37ec0930.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\js\\companyIndex.js",
+      "PackagePath": "staticwebassets\\js\\companyIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\js\\employeeIndex.js",
+      "PackagePath": "staticwebassets\\js\\employeeIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\js\\popper.js",
+      "PackagePath": "staticwebassets\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\scss\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\.browserslistrc",
+      "PackagePath": "staticwebassets\\sneat\\.browserslistrc"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\.eslintignore",
+      "PackagePath": "staticwebassets\\sneat\\.eslintignore"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\sneat\\.eslintrc.json"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\.gitignore",
+      "PackagePath": "staticwebassets\\sneat\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\.prettierignore",
+      "PackagePath": "staticwebassets\\sneat\\.prettierignore"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\.prettierrc.json",
+      "PackagePath": "staticwebassets\\sneat\\.prettierrc.json"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\sneat\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\LICENSE.md",
+      "PackagePath": "staticwebassets\\sneat\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\README.md",
+      "PackagePath": "staticwebassets\\sneat\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\sneat\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\sneat\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\build-config.js",
+      "PackagePath": "staticwebassets\\sneat\\build-config.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\documentation.html",
+      "PackagePath": "staticwebassets\\sneat\\documentation.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\fonts\\boxicons.scss",
+      "PackagePath": "staticwebassets\\sneat\\fonts\\boxicons.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\gulpfile.js",
+      "PackagePath": "staticwebassets\\sneat\\gulpfile.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\auth-forgot-password-basic.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\auth-forgot-password-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\auth-login-basic.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\auth-login-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\auth-register-basic.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\auth-register-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\cards-basic.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\cards-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\extended-ui-perfect-scrollbar.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\extended-ui-perfect-scrollbar.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\extended-ui-text-divider.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\extended-ui-text-divider.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\form-layouts-horizontal.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\form-layouts-horizontal.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\form-layouts-vertical.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\form-layouts-vertical.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\forms-basic-inputs.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\forms-basic-inputs.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\forms-input-groups.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\forms-input-groups.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\icons-boxicons.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\icons-boxicons.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\index.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\layouts-blank.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\layouts-blank.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\layouts-container.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\layouts-container.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\layouts-fluid.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\layouts-fluid.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\layouts-without-menu.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\layouts-without-menu.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\layouts-without-navbar.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\layouts-without-navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\pages-account-settings-account.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\pages-account-settings-account.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\pages-account-settings-connections.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\pages-account-settings-connections.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\pages-account-settings-notifications.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\pages-account-settings-notifications.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\pages-misc-error.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\pages-misc-error.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\pages-misc-under-maintenance.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\pages-misc-under-maintenance.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\tables-basic.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\tables-basic.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-accordion.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-accordion.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-alerts.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-alerts.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-badges.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-badges.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-buttons.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-carousel.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-carousel.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-collapse.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-collapse.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-dropdowns.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-dropdowns.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-footer.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-footer.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-list-groups.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-list-groups.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-modals.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-modals.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-navbar.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-offcanvas.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-offcanvas.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-pagination-breadcrumbs.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-pagination-breadcrumbs.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-progress.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-progress.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-spinners.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-spinners.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-tabs-pills.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-tabs-pills.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-toasts.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-toasts.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-tooltips-popovers.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-tooltips-popovers.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\html\\ui-typography.html",
+      "PackagePath": "staticwebassets\\sneat\\html\\ui-typography.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\index.html",
+      "PackagePath": "staticwebassets\\sneat\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\sneat\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\sneat\\js\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\js\\menu.js",
+      "PackagePath": "staticwebassets\\sneat\\js\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\libs\\apex-charts\\apex-charts.scss",
+      "PackagePath": "staticwebassets\\sneat\\libs\\apex-charts\\apex-charts.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\sneat\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\libs\\highlight\\highlight-github.scss",
+      "PackagePath": "staticwebassets\\sneat\\libs\\highlight\\highlight-github.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\sneat\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\libs\\highlight\\highlight.scss",
+      "PackagePath": "staticwebassets\\sneat\\libs\\highlight\\highlight.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\sneat\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\sneat\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\sneat\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\libs\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\sneat\\libs\\perfect-scrollbar\\perfect-scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\sneat\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\package-lock.json",
+      "PackagePath": "staticwebassets\\sneat\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\package.json",
+      "PackagePath": "staticwebassets\\sneat\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_accordion.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_alert.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_badge.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_button-group.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_buttons.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_card.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_carousel.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_close.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_forms.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_functions.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_include.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_include.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_list-group.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_modal.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_nav.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_navbar.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_pagination.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_popover.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_progress.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_reboot.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_root.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_spinners.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_tables.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_toasts.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_type.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_utilities-ltr.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_utilities.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\_variables.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_navs.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap-extended\\mixins\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_colors.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_colors.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_app-brand.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\_avatar.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\_base.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\_common.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\_footer.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\_include.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_include.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\_layout.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_layout.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\_menu.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\_mixins.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_text-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\_variables.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_app-brand.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_avatar.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_avatar.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_footer.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_menu.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_navbar.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_components\\mixins\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_components\\mixins\\_text-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_custom-variables\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_custom-variables\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_custom-variables\\_components.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_custom-variables\\_components.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_custom-variables\\_libs.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_custom-variables\\_libs.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_custom-variables\\_pages.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_custom-variables\\_pages.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_custom-variables\\_support.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_custom-variables\\_support.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_theme\\_common.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_theme\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\_theme\\_theme.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\_theme\\_theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\core.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\core.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\pages\\page-account-settings.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\pages\\page-account-settings.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\pages\\page-auth.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\pages\\page-auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\pages\\page-icons.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\pages\\page-icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\pages\\page-misc.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\pages\\page-misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\scss\\theme-default.scss",
+      "PackagePath": "staticwebassets\\sneat\\scss\\theme-default.scss"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\tasks\\build.js",
+      "PackagePath": "staticwebassets\\sneat\\tasks\\build.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\tasks\\prod.js",
+      "PackagePath": "staticwebassets\\sneat\\tasks\\prod.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\webpack.config.js",
+      "PackagePath": "staticwebassets\\sneat\\webpack.config.js"
+    },
+    {
+      "Id": "C:\\Users\\kirik\\OneDrive\\Masaüstü\\HR53ProjectAgain\\HR53.Web\\wwwroot\\sneat\\yarn.lock",
+      "PackagePath": "staticwebassets\\sneat\\yarn.lock"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HR53.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HR53.Web.props",
+      "PackagePath": "build\\HR53.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HR53.Web.props",
+      "PackagePath": "buildMultiTargeting\\HR53.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HR53.Web.props",
+      "PackagePath": "buildTransitive\\HR53.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

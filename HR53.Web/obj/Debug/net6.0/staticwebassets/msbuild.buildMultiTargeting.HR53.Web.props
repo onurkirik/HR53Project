@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HR53.Web.props" />
+</Project>
